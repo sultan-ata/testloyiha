@@ -1,0 +1,13 @@
+body {
+
+    background-color: blueviolet;
+    padding: 0px;
+}
+
+ul {
+ 
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
