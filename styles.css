@@ -688,6 +688,7 @@ h1,  h3, h4, h5, h6 {
   .nomi {
    
     font-family: 'FoglihtenNo06', sans-serif;
+    text-transform: uppercase;
     font-optical-sizing: auto;
     font-weight: bolder;
     font-style: normal;;
