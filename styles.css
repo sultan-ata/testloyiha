@@ -60,7 +60,7 @@ body {
 
 header {
     
-     background: url('../Sultancoding/images/andalusia.png');
+     background: url('./images/andalusia.png');
     background-size:cover;
     text-align: center;
     background-repeat: no-repeat;
