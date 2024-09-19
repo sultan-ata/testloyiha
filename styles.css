@@ -1,8 +1,7 @@
 @font-face {
     font-family: 'FoglihtenNo06';
-    src: local('FoglihtenNo06'),
-         url('https://sultan-ata.github.io/testloyiha/fonts/foglihtenno06.woff2') format('woff2'),
-         url('https://sultan-ata.github.io/testloyiha/fonts/foglihtenno06.woff') format('woff'), 
+    src: url('https://sultan-ata.github.io/testloyiha/fonts/foglihtenno06.woff2') format('woff2'),
+         url('https://sultan-ata.github.io/testloyiha/fonts/foglihtenno06.woff') format('woff'),
          url('https://sultan-ata.github.io/testloyiha/fonts/foglihtenno06.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
