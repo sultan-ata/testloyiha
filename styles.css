@@ -581,6 +581,7 @@ header {
 }
 
 .container {
+   
     margin: 0%;
     display: flex;
     justify-content: center;
@@ -588,15 +589,13 @@ header {
    
 }
 .card {
-   
-    width: 300px; /* Kenglik avtomatik belgilanadi */
+    background: url('./images/vilka.png') no-repeat center center; /* Rasm markazda joylashadi */
+    background-size: contain; /* Rasm konteyner ichida mos keladi */
+    width: 300px; /* Kartochka kengligi */
+    max-width: 100%; /* Mobil moslik uchun */
     text-align: center;
-    max-width: 100%;
     padding: 5px;
-    text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-    
 }
 
 .card:hover {
@@ -816,7 +815,7 @@ body {
     text-align: center;
     width: 150px;
     margin-top: -30px;
-    margin-left: 50px;
+    margin-left: 55px;
     padding: 15px;
     padding-bottom: 5px;
     background-color: hsl(0, 0%, 100%);
@@ -867,3 +866,4 @@ body {
 .content::after {
     right: 28px; /* O'ng tomondagi chiziq */
 }
+
