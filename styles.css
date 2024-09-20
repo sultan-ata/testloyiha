@@ -820,7 +820,7 @@ body {
     margin-left: 50px;
     padding: 15px;
     padding-bottom: 5px;
-    background-color: rgb(255, 255, 255);
+    background-color: hsl(24, 100%, 77%);
     border: 1px solid #d9dbdd;
     border-radius: 12px;
 }
@@ -844,4 +844,27 @@ body {
 .text-gray-500 {
 
     font-size: 10px;
+}
+
+.content {
+    position: relative;
+    padding: 10px;
+}
+
+.content::before,
+.content::after {
+    content: '';
+    position: absolute;
+    top: 150px;
+    height: 500%;
+    width: 5px; /* Chiziqning kengligi */
+    background-color: #ffbf65; /* Chiziqning rangi */
+}
+
+.content::before {
+    left: 28px; /* Chap tomondagi chiziq */
+}
+
+.content::after {
+    right: 28px; /* O'ng tomondagi chiziq */
 }
