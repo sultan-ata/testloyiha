@@ -727,13 +727,10 @@ h1,  h3, h4, h5, h6 {
    
  }
 
- .taomimg {
-    width: 400px;
-    height: 400px;
-    animation: rotate 0s linear infinite;
-    transform-origin: center; /* Aylanish markazini o'rtaga o'rnatish */
-    display: block; /* Rasm elementini blok holatiga o'girib markazlashni osonlashtirish */
-  
+
+/* Kattalashgan holat */
+.taoming.active {
+    transform: scale(1.5); /* 1.5 marta kattalashadi */
 }
 
 /* Aylanish animatsiyasi */
@@ -766,12 +763,27 @@ body {
 /* Headerni skroll qilganda jilmasligini ta'minlash */
 
 
-/* Rasmning kattaligi va aylanishi uchun misol */
 .taomimg {
     width: 300px;
     height: 300px;
     margin-top: -20px;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
     animation: rotate 80s linear infinite; /* Aylanish effekti */
+}
+
+/* Rotate animation */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Active class for scaling on click */
+.taomimg.active {
+    transform: scale(1.5); /* 50% kattalashadi */
 }
 
 .taomimg1 {
@@ -779,12 +791,14 @@ body {
     height: 300px;
     margin-top: -20px;
     animation: rotate 80s linear infinite; /* Aylanish effekti */
+
 }
 
 .taomimg2 {
     width: 300px;
     height: 300px;
     margin-top: -20px;
+    
  
 }
 
