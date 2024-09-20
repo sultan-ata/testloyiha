@@ -31,7 +31,7 @@
 }
 
 html {
-    scroll-padding-top: 230px; /* class1 balandligi */
+    scroll-padding-top: 280px; /* class1 balandligi */
     scroll-padding-bottom:0; /* class1 balandligi */
 }
 
@@ -675,13 +675,12 @@ h1,  h3, h4, h5, h6 {
   }
 
   h2 {
-    margin: 10px;
+    
     font-family: "Yanone Kaffeesatz", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
     font-size: 30px;
-    padding: 2%;
+  
   }
 
   .nomi {
@@ -820,7 +819,7 @@ body {
     margin-left: 50px;
     padding: 15px;
     padding-bottom: 5px;
-    background-color: hsl(24, 100%, 77%);
+    background-color: hsl(0, 0%, 100%);
     border: 1px solid #d9dbdd;
     border-radius: 12px;
 }
@@ -855,10 +854,10 @@ body {
 .content::after {
     content: '';
     position: absolute;
-    top: 150px;
+    top: 120px;
     height: 500%;
-    width: 5px; /* Chiziqning kengligi */
-    background-color: #ffbf65; /* Chiziqning rangi */
+    width: 3px; /* Chiziqning kengligi */
+    background-color: #ffd86f; /* Chiziqning rangi */
 }
 
 .content::before {
