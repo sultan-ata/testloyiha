@@ -31,7 +31,7 @@
 }
 
 html {
-    scroll-padding-top: 215px; /* class1 balandligi */
+    scroll-padding-top: 230px; /* class1 balandligi */
     scroll-padding-bottom:0; /* class1 balandligi */
 }
 
@@ -675,13 +675,13 @@ h1,  h3, h4, h5, h6 {
   }
 
   h2 {
-    margin: 0%;
+    margin: 10px;
     font-family: "Yanone Kaffeesatz", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
     font-size: 30px;
-    padding: 0%;
+    padding: 2%;
   }
 
   .nomi {
@@ -805,6 +805,7 @@ body {
 
 .section1 {
     position:relative;
+    padding: 5px;
     z-index: -1;
     
 }
