@@ -72,9 +72,12 @@ header {
 
 
 .headertext {
-
-    color:#8A809D;
+    
+    color:#7f68a9;
     font-family:'great vibes';
+    padding: 0%;
+    margin-top: -40px;
+    font-size: 20px;
 
 }
 
@@ -127,11 +130,11 @@ header {
 .logo {
 
     
-    width: 300px;
-    padding: 65px;
+    width: 180px;
+    padding: 20px;
     border: none;
     text-align: center;
-    margin-bottom: -100px;
+    margin-bottom: 20px;
     
 }
 
@@ -423,6 +426,7 @@ header {
 
         /* navbar kodlar uchun */
      .content {
+        margin-top: 50px;
         display:flex;
         justify-content: center;
         text-align: center;
@@ -512,13 +516,13 @@ header {
         }
         
         .category img {
-            width: 100px;
-            height: 100px;
+            width: 70px;
+            height: 70px;
         }
         
         .category p {
             text-align: center;
-            font-size: 16px;
+            font-size: 14px;
             
         }
         
@@ -561,10 +565,10 @@ header {
 }
 
 .category img {
-            width:70px;
-            height: 70px;
+            width:60px;
+            height: 60px;
             border-radius: 50%;
-            background-color: #f3efef;
+            background-color: #ffffff;
             box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
 }
@@ -583,21 +587,18 @@ header {
 }
 
 .container {
-   
+    margin: 0%;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
    
 }
 .card {
    
     width: 300px; /* Kenglik avtomatik belgilanadi */
     text-align: center;
-    background-color: white;
-    border: 1px solid #e2e8f0;
-    border-radius: 12px;
     max-width: 100%;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
@@ -680,8 +681,13 @@ h1,  h3, h4, h5, h6 {
   }
 
   h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 5%;
+    margin: 0%;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 30px;
+    padding: 0%;
   }
 
   .nomi {
@@ -705,15 +711,18 @@ h1,  h3, h4, h5, h6 {
 
  .line {
 
-    border: 1px solid #000; width: 80%; margin: 10px auto;
+    border: 1px solid #6a6a6a; width: 90%; margin: 10px auto;
  }
 
  .narx {
-
+   
+    color: #01624d;
     font-family: 'Alumni Sans', sans-serif;
-    font-weight: 00;
+    font-size: 25px;
+    font-weight: 200;
     text-transform: uppercase;
-    margin: 0;
+   
+   
  }
 
  .taomimg {
@@ -722,7 +731,7 @@ h1,  h3, h4, h5, h6 {
     animation: rotate 0s linear infinite;
     transform-origin: center; /* Aylanish markazini o'rtaga o'rnatish */
     display: block; /* Rasm elementini blok holatiga o'girib markazlashni osonlashtirish */
-   
+  
 }
 
 /* Aylanish animatsiyasi */
@@ -805,8 +814,18 @@ body {
 }
 
 .concard {
-
-    margin-top: -40px;
+    display:block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+    margin-top: -30px;
+    margin-left: 50px;
+    padding: 15px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #d9dbdd;
+    border-radius: 12px;
 }
 
 .product, .cart {
@@ -823,4 +842,9 @@ body {
 
 .cart-items li {
     margin: 5px 0;
+}
+
+.text-gray-500 {
+
+    font-size: 10px;
 }
