@@ -426,7 +426,7 @@ header {
 
         /* navbar kodlar uchun */
      .content {
-        margin-top: 50px;
+        margin-top: 10px;
         display:flex;
         justify-content: center;
         text-align: center;
@@ -538,11 +538,12 @@ header {
         }
 
         hr {
-            margin: 0; /* Yuqori va pastki bo'sh joyni yo'q qiladi */
-            padding: 0; /* Ichki bo'sh joyni yo'q qiladi */
-            border: none; /* Hr chizig'ini butunlay yo'q qiladi */
-            height: 1px; /* Hr ning qalinligini 1px qilib qo'yish (ixtiyoriy) */
-            background-color: #000; /* Agar chiziq qo'shmoqchi bo'lsangiz, rangini sozlashingiz mumkin */
+            margin-bottom: 10px; /* Yuqori va pastki bo'sh joyni yo'q qiladi */
+           object-fit: cover;
+            padding: 0px; /* Ichki bo'sh joyni yo'q qiladi */
+            border: 1; /* Hr chizig'ini butunlay yo'q qiladi */
+            height:min-content /* Hr ning qalinligini 1px qilib qo'yish (ixtiyoriy) */
+            background-color: #64258c; /* Agar chiziq qo'shmoqchi bo'lsangiz, rangini sozlashingiz mumkin */
         }
 
        /* Horizontal Scroll for Categories */
