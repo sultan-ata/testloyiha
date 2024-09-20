@@ -597,6 +597,14 @@ header {
     padding: 5px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.card1 {
+  
+    width: 300px; /* Kartochka kengligi */
+    max-width: 100%; /* Mobil moslik uchun */
+    text-align: center;
+    padding: 5px;
+   
+}
 
 .card:hover {
     transform: scale(1.05);
