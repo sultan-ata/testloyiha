@@ -414,19 +414,12 @@ header {
             margin: 20px 0;
         }
         
-        .custom-line {
-            border: none;
-            height: 20px;
-            background: #eab533;
-            position: relative;
-            z-index: 1;
-        }
+       
         
        
 
         /* navbar kodlar uchun */
      .content {
-        margin-top: 10px;
         display:flex;
         justify-content: center;
         text-align: center;
