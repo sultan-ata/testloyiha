@@ -43,7 +43,7 @@ body {
 
 body {
    
-    position: relative;
+    position:relative;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -52,20 +52,19 @@ body {
     align-items: center;
     flex-direction: column;
     min-height: 100vh; /* Sahifaning balandligini to'liq qamrab oladi */
-    
-   
 }
 
 
 
 header {
-    
-     background: url('./images/andalusia.png');
+    margin-top: 0px;
+    background: url('./images/andalusia.png');
     background-size:cover;
     text-align: center;
     background-repeat: no-repeat;
     background-position: center;
     justify-content: center;
+    background-color: #ffffff
  
    
 }
@@ -443,9 +442,10 @@ header {
         
         .categories {
             display: flex;
+            z-index: 1000;
             justify-content: space-around;
             width: 100%;
-            max-width: 600px;
+            max-width: 1000px;
         }
         
         .category {
@@ -527,7 +527,7 @@ header {
             max-width: 600px;
             text-align: center;
             border-radius: 10px;
-            
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         hr {
@@ -536,26 +536,37 @@ header {
             padding: 0px; /* Ichki bo'sh joyni yo'q qiladi */
             border: 1; /* Hr chizig'ini butunlay yo'q qiladi */
             height:min-content /* Hr ning qalinligini 1px qilib qo'yish (ixtiyoriy) */
-           
+        
         }
 
        /* Horizontal Scroll for Categories */
-.categories {
+    header {
+       
+        position: fixed;
+        width: 100%;
+        z-index: 10001;
+    }
+
+    .categories {
+    position: fixed;
     display: flex;
-    overflow-x: auto;
-    padding: 10px;
+    overflow-x:scroll;
+    padding-top: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
+    margin-top: 400px;
     justify-content: space-around;
     opacity: 0; /* Sahifa yuklanganda ko'rinmas bo'ladi */
     animation: fadeIn 1s ease-in-out forwards; /* Sahifa yuklanganda paydo bo'ladi */
+    background-color: #fff
 }
 
+
 .category {
-    flex: 0 0 auto;
+    
     margin-left: 15px;
     text-align: center;
     padding: 0%;
+   
 }
 
 .category img {
@@ -705,7 +716,7 @@ h1,  h3, h4, h5, h6 {
  p {
 
     font-size: 12px;
-    margin: 0px;
+    margin: 10px;
     font-family: 'FoglihtenNo06', sans-serif;
  }
 
@@ -746,15 +757,8 @@ h1,  h3, h4, h5, h6 {
     }
 }
 
-/* Aylanish animatsiyasi */
-@keyframes rotate {
-    from {
-        transform: rotate(0deg); /* Aylanish boshlanishi */
-    }
-    to {
-        transform: rotate(360deg); /* To'liq aylanib chiqishi */
-    }
-}
+
+
 
 /* Global resets */
 
@@ -788,29 +792,9 @@ body {
  
 }
 
-
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-.container1 {
-    position:sticky;
-    z-index: 1000;
-    top: 0; /* Ekranning tepasida joylashadi */
-    left: 0;
-    background-color: #fff;
-    
-    
-
-}
-
 .section1 {
     position:relative;
+    margin-top: 230px;
     padding: 5px;
     z-index: -1;
     
@@ -861,8 +845,8 @@ body {
 .content::after {
     content: '';
     position: absolute;
-    top: 120px;
-    height: 500%;
+    top: 150px;
+    height: 5000000%;
     width: 3px; /* Chiziqning kengligi */
     background-color: #ffd86f; /* Chiziqning rangi */
 }
@@ -875,32 +859,48 @@ body {
     right: 28px; /* O'ng tomondagi chiziq */
 }
 
-/* Lightbox modalning ko'rinishi */
-.lightbox {
+
+
+/* Modal umumiy dizayni */
+
+
+.modal {
     display: none;
     position: fixed;
-    z-index: 100;
+    z-index: 1200;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8); /* Fonni qoraytirish */
     justify-content: center;
     align-items: center;
 }
 
-/* Modal kontent dizayni */
-.lightbox-content {
+.modal-content {
     background-color: white;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
-    width: 90%;
-    max-width: 500px;
-    position: relative;
+    width: 70%; /* Kichikroq qilish uchun kenglikni qisqartiring */
+    max-width: 400px; /* Maksimal kenglikni belgilang */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soyalar */
 }
 
+.rasm {
+
+    width: 130%;
+    margin-left: -50px;
+    margin-top: -70px;
+    animation: rotate 80s linear infinite; /* Aylanish effekti */
+}
+
+.matn {
+
+    color: #000;
+    margin-top: -50px;
+}
 /* Yopish tugmasi */
-.close-lightbox {
+.close {
     position: absolute;
     top: 10px;
     right: 20px;
@@ -909,6 +909,19 @@ body {
     cursor: pointer;
 }
 
-.close-lightbox:hover {
+.close:hover {
     color: red;
 }
+.container1 {
+    position:sticky;
+    z-index: 3000;
+    top: 0; /* Ekranning tepasida joylashadi */
+    left: 0;
+    background-color: #fff;
+}
+
+.background {
+  z-index: 1001;
+  position: sticky;  
+}
+
