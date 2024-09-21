@@ -865,7 +865,7 @@ body {
 
 
 .modal {
-    margin-top: -50px;
+    margin-top: 150px;
     display: none;
     position: fixed;
     z-index: 2200;
@@ -889,10 +889,11 @@ body {
 }
 
 .close-icon {
-    font-size: 24px;  /* Ikonka hajmi */
+    margin-left: 200px;
+    font-size: 40px;  /* Ikonka hajmi */
     color: #333;      /* Ikonka rangi */
     cursor: pointer;  /* Ko'rsatgichni o'zgartirish */
-    margin-top: 20px; /* Ikonkani matndan pastroq joylash */
+  
 }
 
 .rasm {
