@@ -865,6 +865,7 @@ body {
 
 
 .modal {
+   
     margin-top: 150px;
     display: none;
     position: fixed;
@@ -879,7 +880,8 @@ body {
 }
 
 .modal-content {
-    background-color: white;
+    background: url('./images/fon4.png');
+    background-size: cover;
     z-index: 2300;
     padding: 10px;
     border-radius: 10px;
@@ -891,30 +893,33 @@ body {
 .close-icon {
     margin-left: 220px;
     font-size: 40px;  /* Ikonka hajmi */
-    color: #333;      /* Ikonka rangi */
+    color: #808688;      /* Ikonka rangi */
     cursor: pointer;  /* Ko'rsatgichni o'zgartirish */
   
 }
 
 .rasm {
 
-    width: 130%;
-    margin-left: -50px;
+    width: 180%;
+    margin-left: -115px;
     margin-top: -70px;
     animation: rotate 80s linear infinite; /* Aylanish effekti */
+    
+    border-radius: 50%; /* Dumaloq shakl yaratish uchun */
 }
 
 .matn {
 
-    color: #000;
-    margin-top: -50px;
+    color: #ffffff;
+    margin-top: -80px;
+    
 }
 /* Yopish tugmasi */
 .close {
     position: absolute;
     top: 10px;
     right: 20px;
-    color: rgb(0, 191, 255);
+    color: rgb(255, 255, 255);
     font-size: 24px;
     cursor: pointer;
 }
