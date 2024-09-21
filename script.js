@@ -20,3 +20,26 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+
+// Modalni ochish funksiyasi (sizga kerak bo'lsa)
+var modal = document.getElementById("myModal");
+var closeIcon = document.getElementById("closeIcon");
+var closeModalButton = document.getElementsByClassName("close")[0];
+
+// Modalni yopish funksiyasi (ikonka bosilganda)
+closeIcon.onclick = function() {
+    modal.style.display = "none";
+}
+
+// Yopish tugmachasi (&times;) bosilganda modalni yopish
+closeModalButton.onclick = function() {
+    modal.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}

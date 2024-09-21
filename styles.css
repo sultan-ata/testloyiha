@@ -865,10 +865,10 @@ body {
 
 
 .modal {
-    margin-top: 130px;
+    margin-top: -50px;
     display: none;
     position: fixed;
-    z-index: 1200;
+    z-index: 2200;
     left: 0;
     top: 0;
     width: 100%;
@@ -880,11 +880,19 @@ body {
 
 .modal-content {
     background-color: white;
+    z-index: 2300;
     padding: 10px;
     border-radius: 10px;
     width: 70%; /* Kichikroq qilish uchun kenglikni qisqartiring */
     max-width: 400px; /* Maksimal kenglikni belgilang */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soyalar */
+}
+
+.close-icon {
+    font-size: 24px;  /* Ikonka hajmi */
+    color: #333;      /* Ikonka rangi */
+    cursor: pointer;  /* Ko'rsatgichni o'zgartirish */
+    margin-top: 20px; /* Ikonkani matndan pastroq joylash */
 }
 
 .rasm {
