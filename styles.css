@@ -865,6 +865,7 @@ body {
 
 
 .modal {
+    margin-top: 70px;
     display: none;
     position: fixed;
     z-index: 1200;
