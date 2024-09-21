@@ -893,9 +893,24 @@ body {
 .close-icon {
     margin-left: 220px;
     font-size: 40px;  /* Ikonka hajmi */
-    color: #808688;      /* Ikonka rangi */
+    color: #00ffbf;      /* Ikonka rangi */
     cursor: pointer;  /* Ko'rsatgichni o'zgartirish */
-  
+
+    /* Animatsiya qo'shish */
+    animation: floatUpDown 2s infinite ease-in-out;
+}
+
+/* Animatsiya uchun @keyframes */
+@keyframes floatUpDown {
+    0% {
+        transform: translateY(0); /* Boshlang'ich joylashuv */
+    }
+    50% {
+        transform: translateY(-10px); /* Tepaga harakat (10px yuqoriga) */
+    }
+    100% {
+        transform: translateY(0); /* Yana boshlang'ich joyga qaytish */
+    }
 }
 
 .rasm {
@@ -923,6 +938,7 @@ body {
     font-size: 24px;
     cursor: pointer;
 }
+
 
 
 .close:hover {
