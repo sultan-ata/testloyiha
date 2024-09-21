@@ -527,7 +527,7 @@ header {
             max-width: 600px;
             text-align: center;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            
         }
 
         hr {
@@ -536,7 +536,7 @@ header {
             padding: 0px; /* Ichki bo'sh joyni yo'q qiladi */
             border: 1; /* Hr chizig'ini butunlay yo'q qiladi */
             height:min-content /* Hr ning qalinligini 1px qilib qo'yish (ixtiyoriy) */
-            background-color: #64258c; /* Agar chiziq qo'shmoqchi bo'lsangiz, rangini sozlashingiz mumkin */
+           
         }
 
        /* Horizontal Scroll for Categories */
@@ -875,10 +875,3 @@ body {
     right: 28px; /* O'ng tomondagi chiziq */
 }
 
-img.taomimg {
-    transition: transform 0.3s ease; /* Bosganda rasm kattalashuvi */
-}
-
-img.taomimg:active {
-    transform: scale(1.1); /* Rasm kattalashadi */
-}
