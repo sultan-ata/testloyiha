@@ -889,7 +889,7 @@ body {
 }
 
 .close-icon {
-    margin-left: 200px;
+    margin-left: 220px;
     font-size: 40px;  /* Ikonka hajmi */
     color: #333;      /* Ikonka rangi */
     cursor: pointer;  /* Ko'rsatgichni o'zgartirish */
@@ -914,10 +914,11 @@ body {
     position: absolute;
     top: 10px;
     right: 20px;
-    color: black;
+    color: rgb(0, 191, 255);
     font-size: 24px;
     cursor: pointer;
 }
+
 
 .close:hover {
     color: red;
