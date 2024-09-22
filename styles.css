@@ -841,23 +841,6 @@ body {
     padding: 10px;
 }
 
-.content::before,
-.content::after {
-    content: '';
-    position: absolute;
-    top: 150px;
-    height: 5000000%;
-    width: 3px; /* Chiziqning kengligi */
-    background-color: #ffd86f; /* Chiziqning rangi */
-}
-
-.content::before {
-    left: 28px; /* Chap tomondagi chiziq */
-}
-
-.content::after {
-    right: 28px; /* O'ng tomondagi chiziq */
-}
 
 
 
