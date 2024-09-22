@@ -429,127 +429,185 @@
            <div id="pizza-section">
                     <h2> ПЕРВЫЕ БЛЮДО</h2>
         
-                <div class="container">
-                    <div class="card transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative">
-                      
-                        <img class="taomimg1" src="./images/salad/Salad/chuchpara.png" alt="Breakfast">
-                        <div class="concard">
-                            <h4 class="nomi"> Домашный чучпара </h4>
-                            <div class="line"> <span></span></div>
-                            <p class="text-gray-500 poppins text-sm text-center">
-                                баранина, картофель, марков, бульон.
-                            </p>
-                            <h1 class="narx">
-                                200 сом
-                            </h1>
-                        </div>
-                    </div>
-                </div>
+              <!-- Kartochka - Домашный чучпара uchun -->
+<div class="container">
+    <div class="card transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalChuchpara">
+        <img class="taomimg1" src="./images/salad/Salad/chuchpara.gif" alt="Chuchpara">
+        <div class="concard">
+            <h4 class="nomi"> Домашный чучпара </h4>
+            <div class="line"> <span></span></div>
+            <p class="text-gray-500 poppins text-sm text-center">
+                баранина, картофель, марков, бульон.
+            </p>
+            <h1 class="narx">200 сом</h1>
+        </div>
+    </div>
+</div>
 
-                <div class="container">
-                    <div class="card transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative">
-                      
-                        <img class="taomimg1" src="./images/salad/Salad/mastava.png" alt="Breakfast">
-                        <div class="concard">
-                            <h4 class="nomi"> Мастава </h4>
-                            <div class="line"> <span></span></div>
-                            <p class="text-gray-500 poppins text-sm text-center">
-                                мясо, картофель, марков, рыс.
-                            </p>
-                            <h1 class="narx">
-                                0.7 180 сом / 1 п. 200 сом
-                            </h1>
-                        </div>
-                    </div>
-                </div>
+<!-- Modal oyna - Домашный чучпара uchun -->
+<div id="myModalChuchpara" class="modal">
+    <div class="modal-content">
+        <span class="closeChuchpara">&times;</span> <!-- Yopish tugmasi -->
+        <img class="rasm" src="./images/salad/Salad/chuchpara.gif" alt="Chuchpara">
+        <h2 class="matn">Домашный чучпара</h2> <!-- Taom nomi -->
+        <i id="closeIconChuchpara" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+    </div>
+</div>
 
-                <div class="container">
-                    <div class="card transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative">
-                      
-                        <img class="taomimg1" src="./images/salad/Salad/shurva.png" alt="Breakfast">
-                        <div class="concard">
-                            <h4 class="nomi"> Кой/Мал шорпо </h4>
-                            <div class="line"> <span></span></div>
-                            <p class="text-gray-500 poppins text-sm text-center">
-                                мясо, картофель, марков, бульон.
-                            </p>
-                            <h1 class="narx">
-                                250 сом
-                            </h1>
-                        </div>
-                    </div>
-                </div>
+             <!-- Kartochka - Мастава uchun -->
+<div class="container">
+    <div class="card transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalMastava">
+        <img class="taomimg1" src="./images/salad/Salad/mastava.gif" alt="Mastava">
+        <div class="concard">
+            <h4 class="nomi"> Мастава </h4>
+            <div class="line"> <span></span></div>
+            <p class="text-gray-500 poppins text-sm text-center">
+                мясо, картофель, марков, рыс.
+            </p>
+            <h1 class="narx">0.7 180 сом / 1 п. 200 сом</h1>
+        </div>
+    </div>
+</div>
+
+<!-- Modal oyna - Мастава uchun -->
+<div id="myModalMastava" class="modal">
+    <div class="modal-content">
+        <span class="closeMastava">&times;</span> <!-- Yopish tugmasi -->
+        <img class="rasm" src="./images/salad/Salad/mastava.gif" alt="Mastava">
+        <h2 class="matn">Мастава</h2> <!-- Taom nomi -->
+        <i id="closeIconMastava" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+    </div>
+</div>
+
+
+               <!-- Kartochka - Кой/Мал шорпо uchun -->
+<div class="container">
+    <div class="card transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalShurva">
+        <img class="taomimg1" src="./images/salad/Salad/shurva.gif" alt="Кой/Мал шорпо">
+        <div class="concard">
+            <h4 class="nomi"> Кой/Мал шорпо </h4>
+            <div class="line"> <span></span></div>
+            <p class="text-gray-500 poppins text-sm text-center">
+                мясо, картофель, марков, бульон.
+            </p>
+            <h1 class="narx">250 сом</h1>
+        </div>
+    </div>
+</div>
+
+<!-- Modal oyna - Кой/Мал шорпо uchun -->
+<div id="myModalShurva" class="modal">
+    <div class="modal-content">
+        <span class="closeShurva">&times;</span> <!-- Yopish tugmasi -->
+        <img class="rasm" src="./images/salad/Salad/shurva.gif" alt="Кой/Мал шорпо">
+        <h2 class="matn">Кой/Мал шорпо</h2> <!-- Taom nomi -->
+        <i id="closeIconShurva" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+    </div>
+</div>
+
 
                 
-                <div class="container">
-                    <div class="card transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative">
-                      
-                        <img class="taomimg1" src="./images/salad/Salad/tooksh.png" alt="Breakfast">
-                        <div class="concard">
-                            <h4 class="nomi"> Тоок шорпо </h4>
-                            <div class="line"> <span></span></div>
-                            <p class="text-gray-500 poppins text-sm text-center">
-                                куриное мясо, картофель, марков, бульон.
-                            </p>
-                            <h1 class="narx">
-                                200 сом
-                            </h1>
-                        </div>
-                    </div>
-                </div>
+               <!-- Kartochka - Тоок шорпо uchun -->
+<div class="container">
+    <div class="card transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalTookSh">
+        <img class="taomimg1" src="./images/salad/Salad/tooksh.gif" alt="Тоок шорпо">
+        <div class="concard">
+            <h4 class="nomi"> Тоок шорпо </h4>
+            <div class="line"> <span></span></div>
+            <p class="text-gray-500 poppins text-sm text-center">
+                куриное мясо, картофель, марков, бульон.
+            </p>
+            <h1 class="narx">200 сом</h1>
+        </div>
+    </div>
+</div>
 
-                <div class="container">
-                    <div class="card transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative">
-                      
-                        <img class="taomimg1" src="./images/salad/Salad/pelmen.png" alt="Breakfast">
-                        <div class="concard">
-                            <h4 class="nomi"> Пелмень </h4>
-                            <div class="line"> <span></span></div>
-                            <p class="text-gray-500 poppins text-sm text-center">
-                               пелмень, картофель, марков, бульон.
-                            </p>
-                            <h1 class="narx">
-                                200 сом
-                            </h1>
-                        </div>
-                    </div>
-                </div>
+<!-- Modal oyna - Тоок шорпо uchun -->
+<div id="myModalTookSh" class="modal">
+    <div class="modal-content">
+        <span class="closeTookSh">&times;</span> <!-- Yopish tugmasi -->
+        <img class="rasm" src="./images/salad/Salad/tooksh.gif" alt="Тоок шорпо">
+        <h2 class="matn">Тоок шорпо</h2> <!-- Taom nomi -->
+        <i id="closeIconTookSh" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+    </div>
+</div>
 
-                <div class="container">
-                    <div class="card transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative">
-                      
-                        <img class="taomimg1" src="./images/salad/Salad/teftel.png" alt="Breakfast">
-                        <div class="concard">
-                            <h4 class="nomi"> Тефтель шорпо </h4>
-                            <div class="line"> <span></span></div>
-                            <p class="text-gray-500 poppins text-sm text-center">
-                                говяжий фарш, картофель, марков, бульон.
-                            </p>
-                            <h1 class="narx">
-                                220 сом
-                            </h1>
-                        </div>
-                    </div>
-                </div>
+                <!-- Kartochka - Пелмень uchun -->
+<div class="container">
+    <div class="card transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalPelmen">
+        <img class="taomimg1" src="./images/salad/Salad/pelmen.gif" alt="Пелмень">
+        <div class="concard">
+            <h4 class="nomi"> Пелмень </h4>
+            <div class="line"> <span></span></div>
+            <p class="text-gray-500 poppins text-sm text-center">
+                пелмень, картофель, марков, бульон.
+            </p>
+            <h1 class="narx">200 сом</h1>
+        </div>
+    </div>
+</div>
 
-                <div class="container">
-                    <div class="card transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative">
-                      
-                        <img class="taomimg1" src="./images/salad/Salad/okroshka.png" alt="Breakfast">
-                        <div class="concard">
-                            <h4 class="nomi"> окрошка </h4>
-                            <div class="line"> <span></span></div>
-                            <p class="text-gray-500 poppins text-sm text-center">
-                                мясо, огурцы, яйцо, ряженка, укроп, картофель.
-                            </p>
-                            <h1 class="narx">
-                                160 сом
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-              </div>
-                
+<!-- Modal oyna - Пелмень uchun -->
+<div id="myModalPelmen" class="modal">
+    <div class="modal-content">
+        <span class="closePelmen">&times;</span> <!-- Yopish tugmasi -->
+        <img class="rasm" src="./images/salad/Salad/pelmen.gif" alt="Пелмень">
+        <h2 class="matn">Пелмень</h2> <!-- Taom nomi -->
+        <i id="closeIconPelmen" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+    </div>
+</div>
+
+
+                <!-- Тефтель шорпо Kartochka -->
+<div class="container">
+    <div class="card transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalTeftel">
+        <img class="taomimg1" src="./images/salad/Salad/teftel.gif" alt="Тефтель шорпо">
+        <div class="concard">
+            <h4 class="nomi"> Тефтель шорпо </h4>
+            <div class="line"> <span></span></div>
+            <p class="text-gray-500 poppins text-sm text-center">
+                говяжий фарш, картофель, марков, бульон.
+            </p>
+            <h1 class="narx">220 сом</h1>
+        </div>
+    </div>
+</div>
+
+<!-- Modal oyna - Тефтель шорпо uchun -->
+<div id="myModalTeftel" class="modal">
+    <div class="modal-content">
+        <span class="closeTeftel">&times;</span> <!-- Yopish tugmasi -->
+        <img class="rasm" src="./images/salad/Salad/teftel.gif" alt="Тефтель шорпо">
+        <h2 class="matn">Тефтель шорпо</h2> <!-- Taom nomi -->
+        <i id="closeIconTeftel" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+    </div>
+</div>
+
+               <!-- окрошка Kartochka -->
+<div class="container">
+    <div class="card transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalOkroshka">
+        <img class="taomimg1" src="./images/salad/Salad/okroshka.gif" alt="окрошка">
+        <div class="concard">
+            <h4 class="nomi"> окрошка </h4>
+            <div class="line"> <span></span></div>
+            <p class="text-gray-500 poppins text-sm text-center">
+                мясо, огурцы, яйцо, ряженка, укроп, картофель.
+            </p>
+            <h1 class="narx">160 сом</h1>
+        </div>
+    </div>
+</div>
+
+<!-- Modal oyna - окрошка uchun -->
+<div id="myModalOkroshka" class="modal">
+    <div class="modal-content">
+        <span class="closeOkroshka">&times;</span> <!-- Yopish tugmasi -->
+        <img class="rasm" src="./images/salad/Salad/okroshka.gif" alt="окрошка">
+        <h2 class="matn">окрошка</h2> <!-- Taom nomi -->
+        <i id="closeIconOkroshka" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+    </div>
+</div>
+
                 <div id="cake-section">
                     <h2> ВТОРЫЕ БЛЮДО</h2>
 

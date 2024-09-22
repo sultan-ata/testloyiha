@@ -369,3 +369,206 @@ window.onclick = function(event) {
         modalSmak.style.display = "none";
     }
 }
+
+// Modalni ochish funksiyasi (Домашный чучпара uchun)
+var modalChuchpara = document.getElementById("myModalChuchpara"); // Modal oynani topish
+var triggerImageChuchpara = document.getElementById("openModalChuchpara"); // Kartochkani topish
+var closeIconChuchpara = document.getElementById("closeIconChuchpara"); // Ikonka
+var closeModalButtonChuchpara = document.getElementsByClassName("closeChuchpara")[0]; // Yopish tugmasi (&times;)
+
+// Kartochkani bosganda modal oynani ochish funksiyasi
+triggerImageChuchpara.onclick = function() {
+    modalChuchpara.style.display = "flex"; // Modalni ko'rsatish
+    modalChuchpara.style.animation = "fadeZoomIn 0.5s ease forwards"; // Animatsiya qo'shish
+}
+
+// Modalni yopish funksiyasi (&times; tugmasi)
+closeModalButtonChuchpara.onclick = function() {
+    modalChuchpara.style.display = "none"; // Modalni yopish
+}
+
+// Yopish ikonasi bosilganda modalni yopish
+closeIconChuchpara.onclick = function() {
+    modalChuchpara.style.display = "none"; // Modalni yopish
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalChuchpara) {
+        modalChuchpara.style.display = "none";
+    }
+}
+
+// Modalni ochish funksiyasi (Мастава uchun)
+var modalMastava = document.getElementById("myModalMastava"); // Modal oynani topish
+var triggerImageMastava = document.getElementById("openModalMastava"); // Kartochkani topish
+var closeIconMastava = document.getElementById("closeIconMastava"); // Ikonka
+var closeModalButtonMastava = document.getElementsByClassName("closeMastava")[0]; // Yopish tugmasi (&times;)
+
+// Kartochkani bosganda modal oynani ochish funksiyasi
+triggerImageMastava.onclick = function() {
+    modalMastava.style.display = "flex"; // Modalni ko'rsatish
+    modalMastava.style.animation = "fadeZoomIn 0.5s ease forwards"; // Animatsiya qo'shish
+}
+
+// Modalni yopish funksiyasi (&times; tugmasi)
+closeModalButtonMastava.onclick = function() {
+    modalMastava.style.display = "none"; // Modalni yopish
+}
+
+// Yopish ikonasi bosilganda modalni yopish
+closeIconMastava.onclick = function() {
+    modalMastava.style.display = "none"; // Modalni yopish
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalMastava) {
+        modalMastava.style.display = "none";
+    }
+}
+// Modalni ochish funksiyasi (Кой/Мал шорпо uchun)
+var modalShurva = document.getElementById("myModalShurva"); // Modal oynani topish
+var triggerImageShurva = document.getElementById("openModalShurva"); // Kartochkani topish
+var closeIconShurva = document.getElementById("closeIconShurva"); // Ikonka
+var closeModalButtonShurva = document.getElementsByClassName("closeShurva")[0]; // Yopish tugmasi (&times;)
+
+// Kartochkani bosganda modal oynani ochish funksiyasi
+triggerImageShurva.onclick = function() {
+    modalShurva.style.display = "flex"; // Modalni ko'rsatish
+    modalShurva.style.animation = "fadeZoomIn 0.5s ease forwards"; // Animatsiya qo'shish
+}
+
+// Modalni yopish funksiyasi (&times; tugmasi)
+closeModalButtonShurva.onclick = function() {
+    modalShurva.style.display = "none"; // Modalni yopish
+}
+
+// Yopish ikonasi bosilganda modalni yopish
+closeIconShurva.onclick = function() {
+    modalShurva.style.display = "none"; // Modalni yopish
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalShurva) {
+        modalShurva.style.display = "none";
+    }
+}
+
+// Modalni ochish funksiyasi (Тоок шорпо uchun)
+var modalTookSh = document.getElementById("myModalTookSh"); // Modal oynani topish
+var triggerImageTookSh = document.getElementById("openModalTookSh"); // Kartochkani topish
+var closeIconTookSh = document.getElementById("closeIconTookSh"); // Ikonka
+var closeModalButtonTookSh = document.getElementsByClassName("closeTookSh")[0]; // Yopish tugmasi (&times;)
+
+// Kartochkani bosganda modal oynani ochish funksiyasi
+triggerImageTookSh.onclick = function() {
+    modalTookSh.style.display = "flex"; // Modalni ko'rsatish
+    modalTookSh.style.animation = "fadeZoomIn 0.5s ease forwards"; // Animatsiya qo'shish
+}
+
+// Modalni yopish funksiyasi (&times; tugmasi)
+closeModalButtonTookSh.onclick = function() {
+    modalTookSh.style.display = "none"; // Modalni yopish
+}
+
+// Yopish ikonasi bosilganda modalni yopish
+closeIconTookSh.onclick = function() {
+    modalTookSh.style.display = "none"; // Modalni yopish
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalTookSh) {
+        modalTookSh.style.display = "none";
+    }
+}
+
+
+// Modalni ochish funksiyasi (Пелмень uchun)
+var modalPelmen = document.getElementById("myModalPelmen"); // Modal oynani topish
+var triggerImagePelmen = document.getElementById("openModalPelmen"); // Kartochkani topish
+var closeIconPelmen = document.getElementById("closeIconPelmen"); // Ikonka
+var closeModalButtonPelmen = document.getElementsByClassName("closePelmen")[0]; // Yopish tugmasi (&times;)
+
+// Kartochkani bosganda modal oynani ochish funksiyasi
+triggerImagePelmen.onclick = function() {
+    modalPelmen.style.display = "flex"; // Modalni ko'rsatish
+    modalPelmen.style.animation = "fadeZoomIn 0.5s ease forwards"; // Animatsiya qo'shish
+}
+
+// Modalni yopish funksiyasi (&times; tugmasi)
+closeModalButtonPelmen.onclick = function() {
+    modalPelmen.style.display = "none"; // Modalni yopish
+}
+
+// Yopish ikonasi bosilganda modalni yopish
+closeIconPelmen.onclick = function() {
+    modalPelmen.style.display = "none"; // Modalni yopish
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalPelmen) {
+        modalPelmen.style.display = "none";
+    }
+}
+
+// Modalni ochish funksiyasi (Тефтель шорпо uchun)
+var modalTeftel = document.getElementById("myModalTeftel"); // Modal oynani topish
+var triggerImageTeftel = document.getElementById("openModalTeftel"); // Kartochkani topish
+var closeIconTeftel = document.getElementById("closeIconTeftel"); // Ikonka
+var closeModalButtonTeftel = document.getElementsByClassName("closeTeftel")[0]; // Yopish tugmasi (&times;)
+
+// Kartochkani bosganda modal oynani ochish funksiyasi
+triggerImageTeftel.onclick = function() {
+    modalTeftel.style.display = "flex"; // Modalni ko'rsatish
+    modalTeftel.style.animation = "fadeZoomIn 0.5s ease forwards"; // Animatsiya qo'shish
+}
+
+// Modalni yopish funksiyasi (&times; tugmasi)
+closeModalButtonTeftel.onclick = function() {
+    modalTeftel.style.display = "none"; // Modalni yopish
+}
+
+// Yopish ikonasi bosilganda modalni yopish
+closeIconTeftel.onclick = function() {
+    modalTeftel.style.display = "none"; // Modalni yopish
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalTeftel) {
+        modalTeftel.style.display = "none";
+    }
+}
+
+// Modalni ochish funksiyasi (окрошка uchun)
+var modalOkroshka = document.getElementById("myModalOkroshka"); // Modal oynani topish
+var triggerImageOkroshka = document.getElementById("openModalOkroshka"); // Kartochkani topish
+var closeIconOkroshka = document.getElementById("closeIconOkroshka"); // Ikonka
+var closeModalButtonOkroshka = document.getElementsByClassName("closeOkroshka")[0]; // Yopish tugmasi (&times;)
+
+// Kartochkani bosganda modal oynani ochish funksiyasi
+triggerImageOkroshka.onclick = function() {
+    modalOkroshka.style.display = "flex"; // Modalni ko'rsatish
+    modalOkroshka.style.animation = "fadeZoomIn 0.5s ease forwards"; // Animatsiya qo'shish
+}
+
+// Modalni yopish funksiyasi (&times; tugmasi)
+closeModalButtonOkroshka.onclick = function() {
+    modalOkroshka.style.display = "none"; // Modalni yopish
+}
+
+// Yopish ikonasi bosilganda modalni yopish
+closeIconOkroshka.onclick = function() {
+    modalOkroshka.style.display = "none"; // Modalni yopish
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalOkroshka) {
+        modalOkroshka.style.display = "none";
+    }
+}
