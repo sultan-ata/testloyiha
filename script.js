@@ -76,3 +76,62 @@ window.onclick = function(event) {
         modalNarezka.style.display = "none";
     }
 }
+
+
+// Modalni ochish funksiyasi (Цезарь uchun)
+var modalSezar = document.getElementById("myModalSezar"); // Modalni topish
+var triggerImageSezar = document.getElementById("openModalSezar"); // Kartochkani topish
+var closeIconSezar = document.getElementById("closeIconSezar"); // Ikonka
+var closeModalButtonSezar = document.getElementsByClassName("closeSezar")[0]; // Yopish tugmasi (&times;)
+
+// Kartochkani bosganda modal ochiladi
+triggerImageSezar.onclick = function() {
+    modalSezar.style.display = "flex"; // Modalni ko'rsatish
+    modalSezar.style.animation = "fadeZoomIn 0.5s ease forwards"; // Modalga animatsiya qo'shish
+}
+
+// Modalni yopish funksiyasi (&times; tugmasi bosilganda)
+closeModalButtonSezar.onclick = function() {
+    modalSezar.style.display = "none"; // Modalni yopish
+}
+
+// Yopish ikonasi bosilganda modalni yopish
+closeIconSezar.onclick = function() {
+    modalSezar.style.display = "none"; // Modalni yopish
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalSezar) {
+        modalSezar.style.display = "none";
+    }
+}
+
+// Modalni ochish funksiyasi (Лаззат uchun)
+var modalLazzat = document.getElementById("myModalLazzat"); // Modalni topish
+var triggerImageLazzat = document.getElementById("openModalLazzat"); // Kartochkani topish
+var closeIconLazzat = document.getElementById("closeIconLazzat"); // Ikonka
+var closeModalButtonLazzat = document.getElementsByClassName("closeLazzat")[0]; // Yopish tugmasi (&times;)
+
+// Kartochkani bosganda modal ochiladi
+triggerImageLazzat.onclick = function() {
+    modalLazzat.style.display = "flex"; // Modalni ko'rsatish
+    modalLazzat.style.animation = "fadeZoomIn 0.5s ease forwards"; // Modalga animatsiya qo'shish
+}
+
+// Modalni yopish funksiyasi (&times; tugmasi bosilganda)
+closeModalButtonLazzat.onclick = function() {
+    modalLazzat.style.display = "none"; // Modalni yopish
+}
+
+// Yopish ikonasi bosilganda modalni yopish
+closeIconLazzat.onclick = function() {
+    modalLazzat.style.display = "none"; // Modalni yopish
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalLazzat) {
+        modalLazzat.style.display = "none";
+    }
+}
