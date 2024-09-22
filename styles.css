@@ -900,6 +900,47 @@ body {
     animation: floatUpDown 2s infinite ease-in-out;
 }
 
+/* Modal uchun default holat */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Qoraygan fon */
+    justify-content: center;
+    align-items: center;
+    
+    /* Boshlanish holati */
+    opacity: 0;
+    transform: scale(0.8); /* Boshlang'ich kattaligi kichikroq */
+    animation: fadeZoomIn 0.5s ease forwards; /* Animatsiya qo'shildi */
+}
+
+/* Modal kontent */
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+}
+
+/* Zoom va Fade in animatsiya */
+@keyframes fadeZoomIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8); /* Boshlanish holati kichraygan */
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1); /* Yakuniy holati normal o'lcham */
+    }
+}
+
 /* Animatsiya uchun @keyframes */
 @keyframes floatUpDown {
     0% {
@@ -915,19 +956,54 @@ body {
 
 .rasm {
 
-    width: 150%;
-    margin-left: -70px;
+    width: 130%;
+    margin-left: -60px;
     margin-top: -70px;
     animation: rotate 80s linear infinite; /* Aylanish effekti */
     
     border-radius: 50%; /* Dumaloq shakl yaratish uchun */
 }
 
+.rasm {
+    opacity: 0; /* Boshlanishda ko'rinmasin */
+    transform: scale(0) rotate(0deg); /* Boshlanish holati - kichik va aylanishsiz */
+    animation: scaleRotate 1s ease forwards; /* 1 soniyalik animatsiya qo'shildi */
+}
+
+/* Scale va Rotate animatsiya */
+@keyframes scaleRotate {
+    0% {
+        opacity: 0;
+        transform: scale(0) rotate(0deg); /* Rasm kichik va aylanishsiz */
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(360deg); /* Kattalashib, 360 gradusga aylanadi */
+    }
+}
 .matn {
 
     color: #ffffff;
     margin-top: -80px;
     
+}
+/* Matn uchun animatsiya */
+.matn {
+    opacity: 0; /* Boshlanishda yashirin */
+    transform: translateY(-20px); /* Boshlanish holati yuqorida */
+    animation: slideIn 1s ease forwards; /* Animatsiya qo'shildi */
+}
+
+/* Animatsiya qoidalari */
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px); /* Yuqoridan kirib keladi */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* O'z joyiga keladi */
+    }
 }
 /* Yopish tugmasi */
 .close {

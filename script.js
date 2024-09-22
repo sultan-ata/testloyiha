@@ -44,3 +44,25 @@ window.onclick = function(event) {
     }
 }
 
+var modal = document.getElementById("myModal");
+var triggerImage = document.getElementById("openModal");
+var closeIcon = document.getElementById("closeIcon");
+var closeModalButton = document.getElementsByClassName("close")[0];
+
+// Modalni ochish funksiyasi
+triggerImage.onclick = function() {
+    modal.style.display = "flex";
+    modal.style.animation = "fadeZoomIn 0.5s ease forwards"; // Modalga animatsiyani qo'shish
+}
+
+// Modalni yopish funksiyasi
+closeModalButton.onclick = function() {
+    modal.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
