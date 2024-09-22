@@ -893,7 +893,7 @@ body {
 .close-icon {
     margin-left: 220px;
     font-size: 40px;  /* Ikonka hajmi */
-    color: #00ffbf;      /* Ikonka rangi */
+    color: #ffffff;      /* Ikonka rangi */
     cursor: pointer;  /* Ko'rsatgichni o'zgartirish */
 
     /* Animatsiya qo'shish */
