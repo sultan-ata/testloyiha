@@ -1,5 +1,7 @@
 
 
+
+
 // Modalni ochish funksiyasi (sizga kerak bo'lsa)
 var modal = document.getElementById("myModal");
 var closeIcon = document.getElementById("closeIcon");
@@ -46,25 +48,24 @@ window.onclick = function(event) {
 }
 
 
-
 // Modalni ochish funksiyasi (Свежая Нарезка uchun)
 var modalNarezka = document.getElementById("myModalNarezka"); // Modalni topish
 var triggerImageNarezka = document.getElementById("openModalNarezka"); // Kartochkani topish
 var closeIconNarezka = document.getElementById("closeIconNarezka"); // Ikonka
 var closeModalButtonNarezka = document.getElementsByClassName("closeNarezka")[0]; // Yopish tugmasi (&times;)
 
-// Modalni ochish funksiyasi
+// Kartochkani bosganda modal ochiladi
 triggerImageNarezka.onclick = function() {
-    modalNarezka.style.display = "flex";
-    modalNarezka.style.animation = "fadeZoomIn 0.5s ease forwards"; // Modalga animatsiyani qo'shish
+    modalNarezka.style.display = "flex"; // Modalni ko'rsatish
+    modalNarezka.style.animation = "fadeZoomIn 0.5s ease forwards"; // Modalga animatsiya qo'shish
 }
 
-// Modalni yopish funksiyasi (&times; tugmasi)
+// Modalni yopish funksiyasi (&times; tugmasi bosilganda)
 closeModalButtonNarezka.onclick = function() {
     modalNarezka.style.display = "none"; // Modalni yopish
 }
 
-// Modalni yopish funksiyasi (ikonka bosilganda)
+// Yopish ikonasi bosilganda modalni yopish
 closeIconNarezka.onclick = function() {
     modalNarezka.style.display = "none"; // Modalni yopish
 }

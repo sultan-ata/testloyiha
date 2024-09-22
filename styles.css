@@ -863,7 +863,7 @@ body {
 }
 
 .modal-content {
-    background: url('./images/fon4.png');
+    background: url('./images/fon4.png');                                                                               
     background-size: cover;
     z-index: 2300;
     padding: 10px;
