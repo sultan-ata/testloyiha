@@ -874,10 +874,12 @@ body {
 }
 
 .close-icon {
-    margin-left: 220px;
+    margin-left: 300px;
+    margin-top: -150px;
     font-size: 40px;  /* Ikonka hajmi */
     color: #ffffff;      /* Ikonka rangi */
     cursor: pointer;  /* Ko'rsatgichni o'zgartirish */
+   
 
     /* Animatsiya qo'shish */
     animation: floatUpDown 2s infinite ease-in-out;
@@ -943,7 +945,6 @@ body {
     margin-left: -60px;
     margin-top: -70px;
     animation: rotate 80s linear infinite; /* Aylanish effekti */
-    
     border-radius: 50%; /* Dumaloq shakl yaratish uchun */
 }
 
