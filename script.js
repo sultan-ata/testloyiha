@@ -1,26 +1,4 @@
 
-// Modalni ochish va yopish uchun kod
-var modal = document.getElementById("myModal");
-var openModal = document.getElementById("openModal");
-var closeModal = document.getElementsByClassName("close")[0];
-
-// Kartochka ustiga bosilganda modalni ko'rsatish
-openModal.onclick = function() {
-    modal.style.display = "flex"; // Flex ko'rinishi bilan modal ochiladi
-}
-
-// Yopish tugmasi bosilganda modalni yopish
-closeModal.onclick = function() {
-    modal.style.display = "none";
-}
-
-// Modal tashqarisiga bosilganda uni yopish
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-
 
 // Modalni ochish funksiyasi (sizga kerak bo'lsa)
 var modal = document.getElementById("myModal");
@@ -64,5 +42,36 @@ closeModalButton.onclick = function() {
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
+    }
+}
+
+
+
+// Modalni ochish funksiyasi (Свежая Нарезка uchun)
+var modalNarezka = document.getElementById("myModalNarezka"); // Modalni topish
+var triggerImageNarezka = document.getElementById("openModalNarezka"); // Kartochkani topish
+var closeIconNarezka = document.getElementById("closeIconNarezka"); // Ikonka
+var closeModalButtonNarezka = document.getElementsByClassName("closeNarezka")[0]; // Yopish tugmasi (&times;)
+
+// Modalni ochish funksiyasi
+triggerImageNarezka.onclick = function() {
+    modalNarezka.style.display = "flex";
+    modalNarezka.style.animation = "fadeZoomIn 0.5s ease forwards"; // Modalga animatsiyani qo'shish
+}
+
+// Modalni yopish funksiyasi (&times; tugmasi)
+closeModalButtonNarezka.onclick = function() {
+    modalNarezka.style.display = "none"; // Modalni yopish
+}
+
+// Modalni yopish funksiyasi (ikonka bosilganda)
+closeIconNarezka.onclick = function() {
+    modalNarezka.style.display = "none"; // Modalni yopish
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalNarezka) {
+        modalNarezka.style.display = "none";
     }
 }
