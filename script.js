@@ -572,3 +572,5 @@ window.onclick = function(event) {
         modalOkroshka.style.display = "none";
     }
 }
+
+

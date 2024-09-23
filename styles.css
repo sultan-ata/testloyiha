@@ -43,6 +43,7 @@ body {
 
 body {
    
+    
     position:relative;
     margin: 0;
     padding: 0;
@@ -57,15 +58,16 @@ body {
 
 
 header {
-    margin-top: 0px;
+  
+   
+    width: 100%;
+    padding-bottom: 45px;
     background: url('./images/andalusia.png');
     background-size:cover;
     text-align: center;
     background-repeat: no-repeat;
-    background-position: center;
-    justify-content: center;
-    background-color: #ffffff
- 
+    background-color: #ffffff;
+   
    
 }
 
@@ -130,10 +132,11 @@ header {
 
     
     width: 180px;
-    padding: 20px;
+    padding: 40px;
     border: none;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
     
 }
 
@@ -287,132 +290,7 @@ header {
     }
 }
 
-  footer {
-            background-color: #eab533;
-            color: black;
-            padding: 40px 20px;
-            text-align: center;
-            font-size: 18px;
-            margin-top: 50px;
-            
-        }
-
-        /* Telefon raqamlar uchun uslub */
-        .contact-numbers {
-            margin-top: 20px;
-            display: flex;
-            justify-content: center;
-            gap: 10px; /* Qadamni juda yaqin qilish uchun */
-            flex-wrap: wrap; /* Gorizontal joylashtirish */
-            margin-bottom: 5px; /* Vertikal bo'shliqni kichiklashtirdik */
-        }
-
-        .contact-numbers p {
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-            gap: 20px; /* Icon va raqam orasidagi masofani kamaytirish */
-            transition: transform 0.3s ease;
-            white-space: nowrap; /* Tekstni bir qatorga joylashtirish */
-        }
-
-        /* Telefon raqamlar uchun hover effect */
-        .contact-numbers p:hover {
-            transform: scale(1.1);
-            color: #444;
-        }
-
-        /* Icon uslubi */
-        .contact-numbers p i {
-            color: black;
-            font-size: 24px;
-            transition: color 0.3s ease;
-        }
-
-        .contact-numbers p:hover i {
-            color: #ffcc00;
-        }
-
-        /* Tashakkurnoma uslubi */
-        .thank-you {
-            margin-top: 30px;
-            font-style: italic;
-        }
-
-        /* Media so'rovlar - mobil qurilmalar uchun */
-        @media (max-width: 600px) {
-            footer {
-                padding: 20px 10px;
-                font-size: 16px;
-            }
-
-            .contact-numbers {
-                flex-direction: column;
-                align-items: center; /* Markazlashtirish */
-                gap: 8px; /* Mobil qurilmalarda masofani kichikroq qilish */
-            }
-
-            .contact-numbers p {
-                font-size: 16px;
-                gap: 5px; /* Icon va raqam orasidagi masofani kichikroq qilish */
-            }
-
-            .contact-numbers p i {
-                font-size: 20px;
-            }
-
-            .thank-you {
-                margin-top: 20px;
-                font-size: 14px;
-            }
-        }
-
-        footer {
-            background-color: #eab533;
-            color: black;
-            text-align: center;
-            padding: 20px 0;
-            width: 100%; /* Butun kenglikni qoplash uchun */
-            box-sizing: border-box; /* Kenglik va padding to'g'ri ishlashi uchun */
-            font-family: 'Roboto', sans-serif; /* Zamonaviy shrift */
-          }
-          
-          .footer-content {
-            max-width: 1200px; /* O'rtacha kenglik bilan cheklash */
-            margin: 0 auto; /* O'rtaga joylashtirish */
-          }
-          
-          .footer-content p {
-            font-size: 18px;
-            margin: 10px 0;
-          }
-          
-          .footer-content ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 10px 0;
-          }
-          
-          .footer-content ul li {
-            font-size: 18px;
-            margin: 5px 0;
-          }
-          
-          #clock {
-            font-family: 'Roboto', sans-serif;
-            font-size: 24px;
-            color: #d1d1d1;
-            text-align: center;
-            margin-top: 20px;
-        }
-        
-        .line-container {
-            position: relative;
-            width: 100%;
-            text-align: center;
-            margin: 20px 0;
-        }
-        
+  
        
         
        
@@ -427,26 +305,8 @@ header {
        
 
      }
-        .search-container {
-            margin-bottom: 20px;
-        }
-        
-        .search-bar {
-            width: 300px;
-            padding: 10px;
-            border-radius: 50px;
-            border: 1px solid #ccc;
-            outline: none;
-            font-size: 16px;
-        }
-        
-        .categories {
-            display: flex;
-            z-index: 1000;
-            justify-content: space-around;
-            width: 100%;
-            max-width: 1000px;
-        }
+      
+       
         
         .category {
             text-align: center;
@@ -478,40 +338,7 @@ header {
         }
         
         
-        .category {
-            opacity: 0;
-            transform: translateY(50px); /* Kategoriyalar pastdan paydo bo'ladi */
-            animation: slideUp 0.8s ease forwards;
-            animation-delay: calc(0.1s * var(--delay)); /* Har bir kategoriyaga kechikish qo'shamiz */
-        }
         
-        .category:nth-child(1) { --delay: 1; }
-        .category:nth-child(2) { --delay: 2; }
-        .category:nth-child(3) { --delay: 3; }
-        .category:nth-child(4) { --delay: 4; }
-        .category:nth-child(5) { --delay: 5; }
-        .category:nth-child(6) { --delay: 6; }
-        .category:nth-child(7) { --delay: 7; }
-        .category:nth-child(8) { --delay: 8; }
-        .category:nth-child(9) { --delay: 9; }
-        
-        @keyframes fadeIn {
-            to {
-                opacity: 1; /* Kategoriyalar butunlay ko'rinadi */
-            }
-        }
-        
-        @keyframes slideUp {
-            to {
-                opacity: 1;
-                transform: translateY(0); /* Harakat pastdan yuqoriga */
-            }
-        }
-        
-        .category img {
-            width: 70px;
-            height: 70px;
-        }
         
         .category p {
             text-align: center;
@@ -543,22 +370,66 @@ header {
     header {
        
         position: fixed;
-        width: 100%;
-        z-index: 10001;
+       
+        z-index: 1000;
     }
 
     .categories {
-    position: fixed;
-    display: flex;
-    overflow-x:scroll;
-    padding-top: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 400px;
-    justify-content: space-around;
-    opacity: 0; /* Sahifa yuklanganda ko'rinmas bo'ladi */
-    animation: fadeIn 1s ease-in-out forwards; /* Sahifa yuklanganda paydo bo'ladi */
-    background-color: #fff
-}
+        position: fixed;
+        display: flex;
+        z-index: 1000;
+        justify-content: space-around;
+        align-items: center; /* Vertikal markazlash */
+        width: 100%;
+        max-width: 1000px;
+        border-bottom: 10px solid #e5e5e5; /* Pastki chiziq */
+        overflow-x: scroll;
+        padding-top: 23px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 470px;
+        background-color: #fff;
+        height: 100px; /* Balandlik qo‘shildi, elementlar shu balandlik bo‘yicha markazlanadi */
+    }
+    
+    .category {
+        opacity: 0;
+        transform: translateY(20px); /* Har bir element bir oz pastdan boshlaydi */
+        animation: fadeInEach 0.8s ease-in-out forwards;
+    }
+    
+    /* Har bir category o'z navbatida paydo bo'ladi */
+    .category:nth-child(1) {
+        animation-delay: 0.2s;
+    }
+    
+    .category:nth-child(2) {
+        animation-delay: 0.4s;
+    }
+    
+    .category:nth-child(3) {
+        animation-delay: 0.6s;
+    }
+    
+    .category:nth-child(4) {
+        animation-delay: 0.8s;
+    }
+    
+    .category:nth-child(5) {
+        animation-delay: 1s;
+    }
+    
+    @keyframes fadeInEach {
+        0% {
+            opacity: 0;
+            transform: translateY(20px); /* Pastdan boshlaydi */
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0); /* Asl joyiga qaytadi */
+        }
+    }
+    
+
 
 
 .category {
@@ -592,7 +463,9 @@ header {
 }
 
 .container {
-   
+    background: url('./images/fon11.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0%;
     display: flex;
     justify-content: center;
@@ -693,11 +566,12 @@ h1,  h3, h4, h5, h6 {
   }
 
   h2 {
-    
+
+    margin: 0%;
     font-family: "Yanone Kaffeesatz", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-size: 30px;
+    font-size: 30px;    
   
   }
 
@@ -793,8 +667,9 @@ body {
 }
 
 .section1 {
+    background-color: #ffe4a9;
     position:relative;
-    margin-top: 230px;
+    margin-top: 260px;
     padding: 5px;
     z-index: -1;
     
@@ -810,7 +685,7 @@ body {
     margin-left: 55px;
     padding: 15px;
     padding-bottom: 5px;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(33, 100%, 82%);
     border: 1px solid #d9dbdd;
     border-radius: 12px;
 }
@@ -1005,11 +880,12 @@ body {
     color: red;
 }
 .container1 {
+   
     position:sticky;
     z-index: 3000;
     top: 0; /* Ekranning tepasida joylashadi */
     left: 0;
-    background-color: #fff;
+    
 }
 
 .background {
