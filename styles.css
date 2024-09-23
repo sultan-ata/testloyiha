@@ -814,6 +814,9 @@ body {
     }
 }
 
+
+
+
 .rasm {
 
     width: 130%;
@@ -824,6 +827,20 @@ body {
 }
 
 .rasm {
+    opacity: 0; /* Boshlanishda ko'rinmasin */
+    transform: scale(0) rotate(0deg); /* Boshlanish holati - kichik va aylanishsiz */
+    animation: scaleRotate 1s ease forwards; /* 1 soniyalik animatsiya qo'shildi */
+}
+
+.rasm2 {
+
+    width: 110%;
+    margin-left: -10px;
+    margin-top: -70px;
+    border-radius: 50%; /* Dumaloq shakl yaratish uchun */
+}
+
+.rasm2 {
     opacity: 0; /* Boshlanishda ko'rinmasin */
     transform: scale(0) rotate(0deg); /* Boshlanish holati - kichik va aylanishsiz */
     animation: scaleRotate 1s ease forwards; /* 1 soniyalik animatsiya qo'shildi */
@@ -840,6 +857,8 @@ body {
         transform: scale(1) rotate(360deg); /* Kattalashib, 360 gradusga aylanadi */
     }
 }
+
+
 .matn {
 
     color: #ffffff;
@@ -893,3 +912,46 @@ body {
   position: sticky;  
 }
 
+
+/* Modal umumiy dizayni */
+
+
+.modal-firmenniy {
+   
+    margin-top: 150px;
+    display: none;
+    position: fixed;
+    z-index: 2200;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fonni qoraytirish */
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Close icon uchun float animatsiyasi */
+.close-icon {
+    margin-left: 300px;
+    margin-top: -150px;
+    font-size: 40px;
+    color: #ffffff;
+    cursor: pointer;
+    animation: floatUpDown 2s infinite ease-in-out;
+}
+
+/* Float animatsiyasi */
+@keyframes floatUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

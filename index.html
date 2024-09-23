@@ -615,187 +615,330 @@
                 <div id="cake-section">
                     <h2> ВТОРЫЕ БЛЮДО</h2>
 
-                    <div class="container">
-                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative">
-                          <img class="taomimg2" src="./images/salad/Salad/firmenniyassorti.png" alt="Breakfast">
-                            <div class="concard">
-                                <h4 class="nomi"> Фирменный ассорти  </h4>
-                                <div class="line"> <span></span></div>
-                                <p class="text-gray-500 poppins text-sm text-center">
-                                    жареные бараньи ребрышки,жареная куриная ножка,крепкое рагу, капуста,голубцы, салат. 
-                                </p>
-                                <h1 class="narx">
-                                    550 сом
-                                </h1>
-                            </div>
-                        </div>
-                    </div>
+<!-- Фирменный ассорти Kartochka -->
+<div class="container">
+    <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalFirmenniy">
+        <img class="taomimg2" src="./images/salad/Salad/firmenniyassorti.png" alt="Фирменный ассорти">
+        <div class="concard">
+            <h4 class="nomi"> Фирменный ассорти </h4>
+            <div class="line"> <span></span></div>
+            <p class="text-gray-500 poppins text-sm text-center">
+                жареные бараньи ребрышки, жареная куриная ножка, крепкое рагу, капуста, голубцы, салат.
+            </p>
+            <h1 class="narx">550 сом</h1>
+        </div>
+    </div>
+</div>
+
+<!-- Modal oyna - Фирменный ассорти uchun -->
+<div id="myModalFirmenniy" class="modal">
+    <div class="modal-content">
+        <span class="closeFirmenniy">&times;</span> <!-- Yopish tugmasi -->
+        <img class="rasm2" src="./images/salad/Salad/firmenniyassorti.png" alt="Фирменный ассорти">
+        <h2 class="matn">Фирменный ассорти</h2> <!-- Taom nomi -->
+        <i id="closeIconFirmenniy" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+    </div>
+</div>
 
                     
-                    <div class="container">
-                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative">
-                          
-                            <img class="taomimg2" src="./images/salad/Salad/kuurdak.png" alt="Breakfast">
-                            <div class="concard">
-                                <h4 class="nomi"> Куурдак-Жиз  </h4>
-                                <div class="line"> <span></span></div>
-                                <p class="text-gray-500 poppins text-sm text-center">
-                                    Жареная баранина, маринованная с можжевельником, картофель, фри.
-                                </p>
-                                <h1 class="narx">
-                                    420 сом
-                                </h1>
-                            </div>
-                        </div>
-                    </div>
+<div class="container">
+    <div class="card transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalKuurdakJiz">
+        <img class="taomimg2" src="./images/salad/Salad/kuurdak.png" alt="Куурдак-Жиз">
+        <div class="concard">
+            <h4 class="nomi">Куурдак-Жиз</h4>
+            <div class="line"> <span></span></div>
+            <p class="text-gray-500 poppins text-sm text-center">
+                Жареная баранина, маринованная с можжевельником, картофель, фри.
+            </p>
+            <h1 class="narx">420 сом</h1>
+        </div>
+    </div>
+</div>
+
+<!-- Modal oyna - Куурдак-Жиз uchun -->
+<div id="myModalKuurdakJiz" class="modal">
+    <div class="modal-content">
+        <span class="closeKuurdakJiz">&times;</span> <!-- Yopish tugmasi -->
+        <img class="rasm2" src="./images/salad/Salad/kuurdak.png" alt="Куурдак-Жиз">
+        <h2 class="matn">Куурдак-Жиз</h2> <!-- Taom nomi -->
+        <i id="closeIconKuurdakJiz" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+    </div>
+</div>
+
 
                     <div class="container">
-                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative">
-                          
-                            <img class="taomimg2" src="./images/salad/Salad/tookkurdak.png" alt="Breakfast">
+                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalKazankebab">
+                            <img class="taomimg2" src="./images/salad/Salad/tookkurdak.png" alt="Тоок казан кебаб">
                             <div class="concard">
-                                <h4 class="nomi"> Тоок казан кебаб  </h4>
+                                <h4 class="nomi">Тоок казан кебаб</h4>
                                 <div class="line"> <span></span></div>
                                 <p class="text-gray-500 poppins text-sm text-center">
                                     жареная куриная ножка в сливочном масле, картофель.
                                 </p>
-                                <h1 class="narx">
-                                    350 сом
-                                </h1>
+                                <h1 class="narx">350 сом</h1>
                             </div>
                         </div>
                     </div>
+                    
+                    <!-- Modal oyna - Тоок казан кебаб uchun -->
+                    <div id="myModalKazankebab" class="modal">
+                        <div class="modal-content">
+                            <span class="closeKazankebab">&times;</span> <!-- Yopish tugmasi -->
+                            <img class="rasm2" src="./images/salad/Salad/tookkurdak.png" alt="Тоок казан кебаб">
+                            <h2 class="matn">Тоок казан кебаб</h2> <!-- Taom nomi -->
+                            <i id="closeIconKazankebab" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+                        </div>
+                    </div>
+                    
+
 
                     <div class="container">
-                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative">
-                          <img class="taomimg2" src="./images/salad/Salad/kazankebab.png" alt="Breakfast">
+                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalKazankebab2">
+                            <img class="taomimg2" src="./images/salad/Salad/kazankebab.png" alt="Казан Кебаб2">
                             <div class="concard">
-                                <h4 class="nomi"> Казан Кебаб > </h4>
+                                <h4 class="nomi">Казан Кебаб2</h4>
                                 <div class="line"> <span></span></div>
                                 <p class="text-gray-500 poppins text-sm text-center">
                                     мясо, фри, зелень.
                                 </p>
-                                <h1 class="narx">
-                                    250 сом
-                                </h1>
+                                <h1 class="narx">250 сом</h1>
                             </div>
                         </div>
                     </div>
+                    
+                    <!-- Modal oyna - Казан Кебаб2 uchun -->
+                    <div id="myModalKazankebab2" class="modal">
+                        <div class="modal-content">
+                            <span class="closeKazankebab2">&times;</span> <!-- Yopish tugmasi -->
+                            <img class="rasm2" src="./images/salad/Salad/kazankebab.png" alt="Казан Кебаб2">
+                            <h2 class="matn">Казан Кебаб</h2> <!-- Taom nomi -->
+                            <i id="closeIconKazankebab2" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+                        </div>
+                    </div>
+                    
                        
                     <div class="container">
-                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative">
-                          <img class="taomimg2" src="./images/salad/Salad/nokot.png" alt="Breakfast">
+                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalNokot">
+                            <img class="taomimg2" src="./images/salad/Salad/nokot.png" alt="Нокот шорек">
                             <div class="concard">
-                                <h4 class="nomi"> Нокот шорек > </h4>
+                                <h4 class="nomi">Нокот шорек</h4>
                                 <div class="line"> <span></span></div>
                                 <p class="text-gray-500 poppins text-sm text-center">
                                     нут, мясо, чучук, язык.
                                 </p>
-                                <h1 class="narx">
-                                    300 сом
-                                </h1>
+                                <h1 class="narx">300 сом</h1>
                             </div>
                         </div>
                     </div>
+                    
+                    <!-- Modal oyna - Нокот шорек uchun -->
+                    <div id="myModalNokot" class="modal">
+                        <div class="modal-content">
+                            <span class="closeNokot">&times;</span> <!-- Yopish tugmasi -->
+                            <img class="rasm2" src="./images/salad/Salad/nokot.png" alt="Нокот шорек">
+                            <h2 class="matn">Нокот шорек</h2> <!-- Taom nomi -->
+                            <i id="closeIconNokot" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+                        </div>
+                    </div>
+                    
 
                     <div class="container">
-                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative">
-                          <img class="taomimg2" src="./images/salad/Salad/tushonka.png" alt="Breakfast">
+                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalTushonka">
+                            <img class="taomimg2" src="./images/salad/Salad/tushonka.png" alt="Тущёнка">
                             <div class="concard">
-                                <h4 class="nomi"> Тущёнка  </h4>
+                                <h4 class="nomi">Тущёнка</h4>
                                 <div class="line"> <span></span></div>
                                 <p class="text-gray-500 poppins text-sm text-center">
                                     Говядина приготовленная очень нежная.
                                 </p>
-                                <h1 class="narx">
-                                    390 сом
-                                </h1>
+                                <h1 class="narx">390 сом</h1>
                             </div>
                         </div>
                     </div>
+                    
+                    <!-- Modal oyna - Тущёнка uchun -->
+                    <div id="myModalTushonka" class="modal">
+                        <div class="modal-content">
+                            <span class="closeTushonka">&times;</span> <!-- Yopish tugmasi -->
+                            <img class="rasm2" src="./images/salad/Salad/tushonka.png" alt="Тущёнка">
+                            <h2 class="matn">Тущёнка</h2> <!-- Taom nomi -->
+                            <i id="closeIconTushonka" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+                        </div>
+                    </div>
+                    
 
                     <div class="container">
-                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative">
-                          <img class="taomimg2" src="./images/salad/Salad/bestroganov.png" alt="Breakfast">
+                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalBifstroganov">
+                            <img class="taomimg2" src="./images/salad/Salad/bestroganov.png" alt="Бифстроганов">
                             <div class="concard">
-                                <h4 class="nomi"> Бифстроганов  </h4>
+                                <h4 class="nomi">Бифстроганов</h4>
                                 <div class="line"> <span></span></div>
                                 <p class="text-gray-500 poppins text-sm text-center">
                                     мясо, фри, зелень.
                                 </p>
-                                <h1 class="narx">
-                                    250 сом
-                                </h1>
+                                <h1 class="narx">250 сом</h1>
                             </div>
                         </div>
                     </div>
+                    
+                    <!-- Modal oyna - Бифстроганов uchun -->
+                    <div id="myModalBifstroganov" class="modal">
+                        <div class="modal-content">
+                            <span class="closeBifstroganov">&times;</span> <!-- Yopish tugmasi -->
+                            <img class="rasm2" src="./images/salad/Salad/bestroganov.png" alt="Бифстроганов">
+                            <h2 class="matn">Бифстроганов</h2> <!-- Taom nomi -->
+                            <i id="closeIconBifstroganov" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+                        </div>
+                    </div>
+                    
 
                     <div class="container">
-                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative">
-                          <img class="taomimg2" src="./images/salad/Salad/dumgaza uy.png" alt="Breakfast">
+                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalDumgaza">
+                            <img class="taomimg2" src="./images/salad/Salad/dumgaza uy.png" alt="Думгаза говядина">
                             <div class="concard">
-                                <h4 class="nomi"> Думгаза говядина > </h4>
+                                <h4 class="nomi">Думгаза говядина</h4>
                                 <div class="line"> <span></span></div>
                                 <p class="text-gray-500 poppins text-sm text-center">
                                     жареный бычий хвост с картофелем.
                                 </p>
-                                <h1 class="narx">
-                                    390 сом
-                                </h1>
+                                <h1 class="narx">390 сом</h1>
                             </div>
                         </div>
                     </div>
+                    
+                    <!-- Modal oyna - Думгаза говядина uchun -->
+                    <div id="myModalDumgaza" class="modal">
+                        <div class="modal-content">
+                            <span class="closeDumgaza">&times;</span> <!-- Yopish tugmasi -->
+                            <img class="rasm2" src="./images/salad/Salad/dumgaza uy.png" alt="Думгаза говядина">
+                            <h2 class="matn">Думгаза говядина</h2> <!-- Taom nomi -->
+                            <i id="closeIconDumgaza" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+                        </div>
+                    </div>
+                    
 
                     <div class="container">
-                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative">
-                          <img class="taomimg2" src="./images/salad/Salad/narin.png" alt="Breakfast">
+                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalNarin">
+                            <img class="taomimg2" src="./images/salad/Salad/narin.png" alt="Нарын">
                             <div class="concard">
-                                <h4 class="nomi"> Нарын  </h4>
+                                <h4 class="nomi">Нарын</h4>
                                 <div class="line"> <span></span></div>
                                 <p class="text-gray-500 poppins text-sm text-center">
                                     мясо, чучук, тесто, бульон.
                                 </p>
-                                <h1 class="narx">
-                                    300 сом
-                                </h1>
+                                <h1 class="narx">300 сом</h1>
                             </div>
                         </div>
                     </div>
+                    
+                    <!-- Modal oyna - Нарын uchun -->
+                    <div id="myModalNarin" class="modal">
+                        <div class="modal-content">
+                            <span class="closeNarin">&times;</span> <!-- Yopish tugmasi -->
+                            <img class="rasm2" src="./images/salad/Salad/narin.png" alt="Нарын">
+                            <h2 class="matn">Нарын</h2> <!-- Taom nomi -->
+                            <i id="closeIconNarin" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+                        </div>
+                    </div>
+                    
                    
                     <div class="container">
-                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative">
-                          <img class="taomimg2" src="./images/salad/Salad/иуырифкьфл.png" alt="Breakfast">
+                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalBeshBarmak">
+                            <img class="taomimg2" src="./images/salad/Salad/иуырифкьфл.png" alt="Беш бармак">
                             <div class="concard">
-                                <h4 class="nomi"> Беш бармак   </h4>
+                                <h4 class="nomi">Беш бармак</h4>
                                 <div class="line"> <span></span></div>
                                 <p class="text-gray-500 poppins text-sm text-center">
-                                    мясо, чучук, тесто<div class=""></div>
+                                    мясо, чучук, тесто.
                                 </p>
-                                <h1 class="narx">
-                                    380 сом
-                                </h1>
+                                <h1 class="narx">380 сом</h1>
                             </div>
                         </div>
                     </div>
+                    
+                    <!-- Modal oyna - Беш бармак uchun -->
+                    <div id="myModalBeshBarmak" class="modal">
+                        <div class="modal-content">
+                            <span class="closeBeshBarmak">&times;</span> <!-- Yopish tugmasi -->
+                            <img class="rasm2" src="./images/salad/Salad/иуырифкьфл.png" alt="Беш бармак">
+                            <h2 class="matn">Беш бармак</h2> <!-- Taom nomi -->
+                            <i id="closeIconBeshBarmak" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+                        </div>
+                    </div>
+                    
 
                     <div class="container">
-                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative">
-                          <img class="taomimg2" src="./images/salad/Salad/manti.png" alt="Breakfast">
+                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalManti">
+                            <img class="taomimg2" src="./images/salad/Salad/manti.png" alt="Манты">
                             <div class="concard">
-                                <h4 class="nomi"> Манты   </h4>
+                                <h4 class="nomi">Манты</h4>
                                 <div class="line"> <span></span></div>
                                 <p class="text-gray-500 poppins text-sm text-center">
-                                    мясо, тесто. <div class=""></div>
+                                    мясо, тесто.
                                 </p>
-                                <h1 class="narx">
-                                   1шт. 40 сом <hr> 1 п. 200 сом
-                                </h1>
+                                <h1 class="narx">1шт. 40 сом <hr> 1 п. 200 сом</h1>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                
+                    
+                    <!-- Modal oyna - Манты uchun -->
+                    <div id="myModalManti" class="modal">
+                        <div class="modal-content">
+                            <span class="closeManti">&times;</span> <!-- Yopish tugmasi -->
+                            <img class="rasm2" src="./images/salad/Salad/manti.png" alt="Манты">
+                            <h2 class="matn">Манты</h2> <!-- Taom nomi -->
+                            <i id="closeIconManti" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+                        </div>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalKebab">
+                            <img class="taomimg2" src="./images/salad/Salad/turkkebab.gif" alt="Турк Кебаб">
+                            <div class="concard">
+                                <h4 class="nomi">Турк Кебаб</h4>
+                                <div class="line"> <span></span></div>
+                                <p class="text-gray-500 poppins text-sm text-center">
+                                    Турецкий стиль мяса и тесто.
+                                </p>
+                                <h1 class="narx">300 сом</h1>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Modal oyna - Турк Кебаб uchun -->
+                    <div id="myModalKebab" class="modal">
+                        <div class="modal-content">
+                            <span class="closeKebab">&times;</span> <!-- Yopish tugmasi -->
+                            <img class="rasm2" src="./images/salad/Salad/turkkebab.gif" alt="Турк Кебаб">
+                            <h2 class="matn">Турк Кебаб</h2> <!-- Taom nomi -->
+                            <i id="closeIconKebab" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+                        </div>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="card1 transition transform duration-700 hover:shadow-xl hover:scale-105 p-4 rounded-lg relative" id="openModalPlov">
+                            <img class="taomimg2" src="./images/salad/Salad/tashkenplov.gif" alt="Ташкент Плов">
+                            <div class="concard">
+                                <h4 class="nomi">Ташкент Плов</h4>
+                                <div class="line"> <span></span></div>
+                                <p class="text-gray-500 poppins text-sm text-center">
+                                    Узбекский традиционный плов с мясом, морковью и рисом.
+                                </p>
+                                <h1 class="narx">350 сом</h1>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Modal oyna - Ташкент Плов uchun -->
+                    <div id="myModalPlov" class="modal">
+                        <div class="modal-content">
+                            <span class="closePlov">&times;</span> <!-- Yopish tugmasi -->
+                            <img class="rasm2" src="./images/salad/Salad/tashkenplov.gif" alt="Ташкент Плов">
+                            <h2 class="matn">Ташкент Плов</h2> <!-- Taom nomi -->
+                            <i id="closeIconPlov" class="fas fa-chevron-down close-icon"></i> <!-- Yopish ikonasi -->
+                        </div>
+                    </div>
+                    
                 
                 <div id="salad-section">
                     <h2>Salad Section</h2>

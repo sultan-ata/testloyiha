@@ -573,4 +573,331 @@ window.onclick = function(event) {
     }
 }
 
+// Modalni ochish funksiyasi (Фирменный ассорти uchun)
+var modalFirmenniy = document.getElementById("myModalFirmenniy");
+var triggerImageFirmenniy = document.getElementById("openModalFirmenniy");
+var closeIconFirmenniy = document.getElementById("closeIconFirmenniy");
+var closeModalButtonFirmenniy = document.getElementsByClassName("closeFirmenniy")[0];
 
+// Kartochkani bosganda modal oynani ochish funksiyasi
+triggerImageFirmenniy.onclick = function() {
+    modalFirmenniy.style.display = "flex";
+}
+
+// Modalni yopish funksiyasi
+closeModalButtonFirmenniy.onclick = function() {
+    modalFirmenniy.style.display = "none";
+}
+
+// Yopish ikonasi bosilganda modalni yopish
+closeIconFirmenniy.onclick = function() {
+    modalFirmenniy.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalFirmenniy) {
+        modalFirmenniy.style.display = "none";
+    }
+}
+
+// Kuurdak-Jiz modalni ochish va yopish funksiyalari
+var modalKuurdakJiz = document.getElementById("myModalKuurdakJiz");
+var closeIconKuurdakJiz = document.getElementById("closeIconKuurdakJiz");
+var closeModalButtonKuurdakJiz = document.getElementsByClassName("closeKuurdakJiz")[0];
+
+// Kuurdak-Jiz modalni ochish
+document.getElementById("openModalKuurdakJiz").onclick = function() {
+    modalKuurdakJiz.style.display = "flex";
+}
+
+// Kuurdak-Jiz modalni yopish
+closeModalButtonKuurdakJiz.onclick = function() {
+    modalKuurdakJiz.style.display = "none";
+}
+closeIconKuurdakJiz.onclick = function() {
+    modalKuurdakJiz.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalKuurdakJiz) {
+        modalKuurdakJiz.style.display = "none";
+    }
+}
+
+// Kazan Kebab modalni ochish va yopish funksiyalari
+var modalKazankebab = document.getElementById("myModalKazankebab");
+var closeIconKazankebab = document.getElementById("closeIconKazankebab");
+var closeModalButtonKazankebab = document.getElementsByClassName("closeKazankebab")[0];
+
+// Kazan Kebab modalni ochish
+document.getElementById("openModalKazankebab").onclick = function() {
+    modalKazankebab.style.display = "flex";
+}
+
+// Kazan Kebab modalni yopish
+closeModalButtonKazankebab.onclick = function() {
+    modalKazankebab.style.display = "none";
+}
+closeIconKazankebab.onclick = function() {
+    modalKazankebab.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalKazankebab) {
+        modalKazankebab.style.display = "none";
+    }
+}
+
+// Kazan Kebab2 modalni ochish va yopish funksiyalari
+var modalKazankebab2 = document.getElementById("myModalKazankebab2");
+var closeIconKazankebab2 = document.getElementById("closeIconKazankebab2");
+var closeModalButtonKazankebab2 = document.getElementsByClassName("closeKazankebab2")[0];
+
+// Kazan Kebab2 modalni ochish
+document.getElementById("openModalKazankebab2").onclick = function() {
+    modalKazankebab2.style.display = "flex";
+}
+
+// Kazan Kebab2 modalni yopish
+closeModalButtonKazankebab2.onclick = function() {
+    modalKazankebab2.style.display = "none";
+}
+closeIconKazankebab2.onclick = function() {
+    modalKazankebab2.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalKazankebab2) {
+        modalKazankebab2.style.display = "none";
+    }
+}
+
+
+// Нокот шорек modalni ochish va yopish funksiyalari
+var modalNokot = document.getElementById("myModalNokot");
+var closeIconNokot = document.getElementById("closeIconNokot");
+var closeModalButtonNokot = document.getElementsByClassName("closeNokot")[0];
+
+// Нокот шорек modalni ochish
+document.getElementById("openModalNokot").onclick = function() {
+    modalNokot.style.display = "flex";
+}
+
+// Нокот шорек modalni yopish
+closeModalButtonNokot.onclick = function() {
+    modalNokot.style.display = "none";
+}
+closeIconNokot.onclick = function() {
+    modalNokot.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalNokot) {
+        modalNokot.style.display = "none";
+    }
+}
+
+// Тущёнка modalni ochish va yopish funksiyalari
+var modalTushonka = document.getElementById("myModalTushonka");
+var closeIconTushonka = document.getElementById("closeIconTushonka");
+var closeModalButtonTushonka = document.getElementsByClassName("closeTushonka")[0];
+
+// Тущёнка modalni ochish
+document.getElementById("openModalTushonka").onclick = function() {
+    modalTushonka.style.display = "flex";
+}
+
+// Тущёнка modalni yopish
+closeModalButtonTushonka.onclick = function() {
+    modalTushonka.style.display = "none";
+}
+closeIconTushonka.onclick = function() {
+    modalTushonka.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalTushonka) {
+        modalTushonka.style.display = "none";
+    }
+}
+
+// Бифстроганов modalni ochish va yopish funksiyalari
+var modalBifstroganov = document.getElementById("myModalBifstroganov");
+var closeIconBifstroganov = document.getElementById("closeIconBifstroganov");
+var closeModalButtonBifstroganov = document.getElementsByClassName("closeBifstroganov")[0];
+
+// Бифстроганов modalni ochish
+document.getElementById("openModalBifstroganov").onclick = function() {
+    modalBifstroganov.style.display = "flex";
+}
+
+// Бифстроганов modalni yopish
+closeModalButtonBifstroganov.onclick = function() {
+    modalBifstroganov.style.display = "none";
+}
+closeIconBifstroganov.onclick = function() {
+    modalBifstroganov.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalBifstroganov) {
+        modalBifstroganov.style.display = "none";
+    }
+}
+
+// Думгаза говядина modalni ochish va yopish funksiyalari
+var modalDumgaza = document.getElementById("myModalDumgaza");
+var closeIconDumgaza = document.getElementById("closeIconDumgaza");
+var closeModalButtonDumgaza = document.getElementsByClassName("closeDumgaza")[0];
+
+// Думгаза говядина modalni ochish
+document.getElementById("openModalDumgaza").onclick = function() {
+    modalDumgaza.style.display = "flex";
+}
+
+// Думгаза говядина modalni yopish
+closeModalButtonDumgaza.onclick = function() {
+    modalDumgaza.style.display = "none";
+}
+closeIconDumgaza.onclick = function() {
+    modalDumgaza.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalDumgaza) {
+        modalDumgaza.style.display = "none";
+    }
+}
+
+// Нарын modalni ochish va yopish funksiyalari
+var modalNarin = document.getElementById("myModalNarin");
+var closeIconNarin = document.getElementById("closeIconNarin");
+var closeModalButtonNarin = document.getElementsByClassName("closeNarin")[0];
+
+// Нарын modalni ochish
+document.getElementById("openModalNarin").onclick = function() {
+    modalNarin.style.display = "flex";
+}
+
+// Нарын modalni yopish
+closeModalButtonNarin.onclick = function() {
+    modalNarin.style.display = "none";
+}
+closeIconNarin.onclick = function() {
+    modalNarin.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalNarin) {
+        modalNarin.style.display = "none";
+    }
+}
+
+// Беш бармак modalni ochish va yopish funksiyalari
+var modalBeshBarmak = document.getElementById("myModalBeshBarmak");
+var closeIconBeshBarmak = document.getElementById("closeIconBeshBarmak");
+var closeModalButtonBeshBarmak = document.getElementsByClassName("closeBeshBarmak")[0];
+
+// Беш бармак modalni ochish
+document.getElementById("openModalBeshBarmak").onclick = function() {
+    modalBeshBarmak.style.display = "flex";
+}
+
+// Беш бармак modalni yopish
+closeModalButtonBeshBarmak.onclick = function() {
+    modalBeshBarmak.style.display = "none";
+}
+closeIconBeshBarmak.onclick = function() {
+    modalBeshBarmak.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalBeshBarmak) {
+        modalBeshBarmak.style.display = "none";
+    }
+}
+
+// Манты modalni ochish va yopish funksiyalari
+var modalManti = document.getElementById("myModalManti");
+var closeIconManti = document.getElementById("closeIconManti");
+var closeModalButtonManti = document.getElementsByClassName("closeManti")[0];
+
+// Манты modalni ochish
+document.getElementById("openModalManti").onclick = function() {
+    modalManti.style.display = "flex";
+}
+
+// Манты modalni yopish
+closeModalButtonManti.onclick = function() {
+    modalManti.style.display = "none";
+}
+closeIconManti.onclick = function() {
+    modalManti.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalManti) {
+        modalManti.style.display = "none";
+    }
+}
+
+// Турк Кебаб modalni ochish va yopish funksiyalari
+var modalKebab = document.getElementById("myModalKebab");
+var closeIconKebab = document.getElementById("closeIconKebab");
+var closeModalButtonKebab = document.getElementsByClassName("closeKebab")[0];
+
+// Турк Кебаб modalni ochish
+document.getElementById("openModalKebab").onclick = function() {
+    modalKebab.style.display = "flex";
+}
+
+// Турк Кебаб modalni yopish
+closeModalButtonKebab.onclick = function() {
+    modalKebab.style.display = "none";
+}
+closeIconKebab.onclick = function() {
+    modalKebab.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalKebab) {
+        modalKebab.style.display = "none";
+    }
+}
+
+// Ташкент Плов modalni ochish va yopish funksiyalari
+var modalPlov = document.getElementById("myModalPlov");
+var closeIconPlov = document.getElementById("closeIconPlov");
+var closeModalButtonPlov = document.getElementsByClassName("closePlov")[0];
+
+// Ташкент Плов modalni ochish
+document.getElementById("openModalPlov").onclick = function() {
+    modalPlov.style.display = "flex";
+}
+
+// Ташкент Плов modalni yopish
+closeModalButtonPlov.onclick = function() {
+    modalPlov.style.display = "none";
+}
+closeIconPlov.onclick = function() {
+    modalPlov.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalPlov) {
+        modalPlov.style.display = "none";
+    }
+}
