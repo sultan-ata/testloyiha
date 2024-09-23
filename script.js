@@ -1177,3 +1177,233 @@ window.onclick = function(event) {
         modalGanfan.style.display = "none";
     }
 }
+
+// Канада modalni ochish va yopish funksiyalari
+var modalKanada = document.getElementById("myModalKanada");
+var closeIconKanada = document.getElementById("closeIconKanada");
+var closeModalButtonKanada = document.getElementsByClassName("closeKanada")[0];
+
+// Канада modalni ochish
+document.getElementById("openModalKanada").onclick = function() {
+    modalKanada.style.display = "flex";
+}
+
+// Канада modalni yopish
+closeModalButtonKanada.onclick = function() {
+    modalKanada.style.display = "none";
+}
+closeIconKanada.onclick = function() {
+    modalKanada.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalKanada) {
+        modalKanada.style.display = "none";
+    }
+}
+
+
+// Аляска modalni ochish va yopish funksiyalari
+var modalAlyaska = document.getElementById("myModalAlyaska");
+var closeIconAlyaska = document.getElementById("closeIconAlyaska");
+var closeModalButtonAlyaska = document.getElementsByClassName("closeAlyaska")[0];
+
+// Аляска modalni ochish
+document.getElementById("openModalAlyaska").onclick = function() {
+    modalAlyaska.style.display = "flex";
+}
+
+// Аляска modalni yopish
+closeModalButtonAlyaska.onclick = function() {
+    modalAlyaska.style.display = "none";
+}
+closeIconAlyaska.onclick = function() {
+    modalAlyaska.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalAlyaska) {
+        modalAlyaska.style.display = "none";
+    }
+}
+
+// Хасса Гурсом modalni ochish va yopish funksiyalari
+var modalHassoGursom = document.getElementById("myModalHassoGursom");
+var closeIconHassoGursom = document.getElementById("closeIconHassoGursom");
+var closeModalButtonHassoGursom = document.getElementsByClassName("closeHassoGursom")[0];
+
+// Хасса Гурсом modalni ochish
+document.getElementById("openModalHassoGursom").onclick = function() {
+    modalHassoGursom.style.display = "flex";
+}
+
+// Хасса Гурсом modalni yopish
+closeModalButtonHassoGursom.onclick = function() {
+    modalHassoGursom.style.display = "none";
+}
+closeIconHassoGursom.onclick = function() {
+    modalHassoGursom.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalHassoGursom) {
+        modalHassoGursom.style.display = "none";
+    }
+}
+
+// Лондон modalni ochish va yopish funksiyalari
+var modalLondon = document.getElementById("myModalLondon");
+var closeIconLondon = document.getElementById("closeIconLondon");
+var closeModalButtonLondon = document.getElementsByClassName("closeLondon")[0];
+
+// Лондон modalni ochish
+document.getElementById("openModalLondon").onclick = function() {
+    modalLondon.style.display = "flex";
+}
+
+// Лондон modalni yopish
+closeModalButtonLondon.onclick = function() {
+    modalLondon.style.display = "none";
+}
+closeIconLondon.onclick = function() {
+    modalLondon.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalLondon) {
+        modalLondon.style.display = "none";
+    }
+}
+
+
+// Барселона modalni ochish va yopish funksiyalari
+var modalBarselona = document.getElementById("myModalBarselona");
+var closeIconBarselona = document.getElementById("closeIconBarselona");
+var closeModalButtonBarselona = document.getElementsByClassName("closeBarselona")[0];
+
+// Modalni ochish
+document.getElementById("openModalBarselona").onclick = function() {
+    modalBarselona.style.display = "flex";
+}
+
+// Modalni yopish
+closeModalButtonBarselona.onclick = function() {
+    modalBarselona.style.display = "none";
+}
+
+closeIconBarselona.onclick = function() {
+    modalBarselona.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalBarselona) {
+        modalBarselona.style.display = "none";
+    }
+}
+
+// Бонито modalni ochish va yopish funksiyalari
+var modalBonito = document.getElementById("myModalBonito");
+var closeIconBonito = document.getElementById("closeIconBonito");
+var closeModalButtonBonito = document.getElementsByClassName("closeBonito")[0];
+
+// Бонито modalni ochish
+document.getElementById("openModalBonito").onclick = function() {
+    modalBonito.style.display = "flex";
+}
+
+// Бонито modalni yopish   
+closeModalButtonBonito.onclick = function() {
+    modalBonito.style.display = "none";
+}
+closeIconBonito.onclick = function() {
+    modalBonito.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalBonito) {
+        modalBonito.style.display = "none";
+    }
+}
+
+
+// Филадельфия с Угрём modalni ochish va yopish funksiyalari
+var modalPhiladelphiaUgrom = document.getElementById("myModalPhiladelphiaUgrom");
+var closeIconPhiladelphiaUgrom = document.getElementById("closeIconPhiladelphiaUgrom");
+var closeModalButtonPhiladelphiaUgrom = document.getElementsByClassName("closePhiladelphiaUgrom")[0];
+
+// Филадельфия с Угрём modalni ochish
+document.getElementById("openModalPhiladelphiaUgrom").onclick = function() {
+    modalPhiladelphiaUgrom.style.display = "flex";
+}
+
+// Филадельфия с Угрём modalni yopish   
+closeModalButtonPhiladelphiaUgrom.onclick = function() {
+    modalPhiladelphiaUgrom.style.display = "none";
+}
+closeIconPhiladelphiaUgrom.onclick = function() {
+    modalPhiladelphiaUgrom.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalPhiladelphiaUgrom) {
+        modalPhiladelphiaUgrom.style.display = "none";
+    }
+}
+
+
+// Калифорния с Лососем modalni ochish va yopish funksiyalari
+var modalCaliforniaLosos = document.getElementById("myModalCaliforniaLosos");
+var closeIconCaliforniaLosos = document.getElementById("closeIconCaliforniaLosos");
+var closeModalButtonCaliforniaLosos = document.getElementsByClassName("closeCaliforniaLosos")[0];
+
+// Калифорния с Лососем modalni ochish
+document.getElementById("openModalCaliforniaLosos").onclick = function() {
+    modalCaliforniaLosos.style.display = "flex";
+}
+
+// Калифорния с Лососем modalni yopish   
+closeModalButtonCaliforniaLosos.onclick = function() {
+    modalCaliforniaLosos.style.display = "none";
+}
+closeIconCaliforniaLosos.onclick = function() {
+    modalCaliforniaLosos.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalCaliforniaLosos) {
+        modalCaliforniaLosos.style.display = "none";
+    }
+}
+
+// Филадельфия modalni ochish va yopish funksiyalari
+var modalPhiladelphia = document.getElementById("myModalPhiladelphia");
+var closeIconPhiladelphia = document.getElementById("closeIconPhiladelphia");
+var closeModalButtonPhiladelphia = document.getElementsByClassName("closePhiladelphia")[0];
+
+// Филадельфия modalni ochish
+document.getElementById("openModalPhiladelphia").onclick = function() {
+    modalPhiladelphia.style.display = "flex";
+}
+
+// Филадельфия modalni yopish   
+closeModalButtonPhiladelphia.onclick = function() {
+    modalPhiladelphia.style.display = "none";
+}
+closeIconPhiladelphia.onclick = function() {
+    modalPhiladelphia.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalPhiladelphia) {
+        modalPhiladelphia.style.display = "none";
+    }
+}
