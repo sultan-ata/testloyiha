@@ -685,7 +685,7 @@ body {
     margin-left: 55px;
     padding: 15px;
     padding-bottom: 5px;
-    background-color: hsl(33, 100%, 82%);
+    background-color: hsl(0, 0%, 100%);
     border: 1px solid #d9dbdd;
     border-radius: 12px;
 }
