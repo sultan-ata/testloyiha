@@ -901,3 +901,279 @@ window.onclick = function(event) {
         modalPlov.style.display = "none";
     }
 }
+
+// Суйру Лагман modalni ochish va yopish funksiyalari
+var modalLagman = document.getElementById("myModalLagman");
+var closeIconLagman = document.getElementById("closeIconLagman");
+var closeModalButtonLagman = document.getElementsByClassName("closeLagman")[0];
+
+// Суйру Лагман modalni ochish
+document.getElementById("openModalLagman").onclick = function() {
+    modalLagman.style.display = "flex";
+}
+
+// Суйру Лагман modalni yopish
+closeModalButtonLagman.onclick = function() {
+    modalLagman.style.display = "none";
+}
+closeIconLagman.onclick = function() {
+    modalLagman.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalLagman) {
+        modalLagman.style.display = "none";
+    }
+}
+
+// Уйгур Лагман modalni ochish va yopish funksiyalari
+var modalLagmanUygur = document.getElementById("myModalLagmanUygur");
+var closeIconLagmanUygur = document.getElementById("closeIconLagmanUygur");
+var closeModalButtonLagmanUygur = document.getElementsByClassName("closeLagmanUygur")[0];
+
+// Уйгур Лагман modalni ochish
+document.getElementById("openModalLagmanUygur").onclick = function() {
+    modalLagmanUygur.style.display = "flex";
+}
+
+// Уйгур Лагман modalni yopish
+closeModalButtonLagmanUygur.onclick = function() {
+    modalLagmanUygur.style.display = "none";
+}
+closeIconLagmanUygur.onclick = function() {
+    modalLagmanUygur.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalLagmanUygur) {
+        modalLagmanUygur.style.display = "none";
+    }
+}
+
+// Айримсай modalni ochish va yopish funksiyalari
+var modalAyrimsay = document.getElementById("myModalAyrimsay");
+var closeIconAyrimsay = document.getElementById("closeIconAyrimsay");
+var closeModalButtonAyrimsay = document.getElementsByClassName("closeAyrimsay")[0];
+
+// Айримсай modalni ochish
+document.getElementById("openModalAyrimsay").onclick = function() {
+    modalAyrimsay.style.display = "flex";
+}
+
+// Айримсай modalni yopish
+closeModalButtonAyrimsay.onclick = function() {
+    modalAyrimsay.style.display = "none";
+}
+closeIconAyrimsay.onclick = function() {
+    modalAyrimsay.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalAyrimsay) {
+        modalAyrimsay.style.display = "none";
+    }
+}
+
+// Этсай modalni ochish va yopish funksiyalari
+var modalEtsay = document.getElementById("myModalEtsay");
+var closeIconEtsay = document.getElementById("closeIconEtsay");
+var closeModalButtonEtsay = document.getElementsByClassName("closeEtsay")[0];
+
+// Этсай modalni ochish
+document.getElementById("openModalEtsay").onclick = function() {
+    modalEtsay.style.display = "flex";
+}
+
+// Этсай modalni yopish
+closeModalButtonEtsay.onclick = function() {
+    modalEtsay.style.display = "none";
+}
+closeIconEtsay.onclick = function() {
+    modalEtsay.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalEtsay) {
+        modalEtsay.style.display = "none";
+    }
+}
+
+// Сокоро modalni ochish va yopish funksiyalari
+var modalSokoro = document.getElementById("myModalSokoro");
+var closeIconSokoro = document.getElementById("closeIconSokoro");
+var closeModalButtonSokoro = document.getElementsByClassName("closeSokoro")[0];
+
+// Сокоро modalni ochish
+document.getElementById("openModalSokoro").onclick = function() {
+    modalSokoro.style.display = "flex";
+}
+
+// Сокоро modalni yopish
+closeModalButtonSokoro.onclick = function() {
+    modalSokoro.style.display = "none";
+}
+closeIconSokoro.onclick = function() {
+    modalSokoro.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalSokoro) {
+        modalSokoro.style.display = "none";
+    }
+}
+
+// Жаз-Жиз modalni ochish va yopish funksiyalari
+var modalJazJiz = document.getElementById("myModalJazJiz");
+var closeIconJazJiz = document.getElementById("closeIconJazJiz");
+var closeModalButtonJazJiz = document.getElementsByClassName("closeJazJiz")[0];
+
+// Жаз-Жиз modalni ochish
+document.getElementById("openModalJazJiz").onclick = function() {
+    modalJazJiz.style.display = "flex";
+}
+
+// Жаз-Жиз modalni yopish
+closeModalButtonJazJiz.onclick = function() {
+    modalJazJiz.style.display = "none";
+}
+closeIconJazJiz.onclick = function() {
+    modalJazJiz.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalJazJiz) {
+        modalJazJiz.style.display = "none";
+    }
+}
+
+// Сумборо modalni ochish va yopish funksiyalari
+var modalSumboro = document.getElementById("myModalSumboro");
+var closeIconSumboro = document.getElementById("closeIconSumboro");
+var closeModalButtonSumboro = document.getElementsByClassName("closeSumboro")[0];
+
+// Сумборо modalni ochish
+document.getElementById("openModalSumboro").onclick = function() {
+    modalSumboro.style.display = "flex";
+}
+
+// Сумборо modalni yopish
+closeModalButtonSumboro.onclick = function() {
+    modalSumboro.style.display = "none";
+}
+closeIconSumboro.onclick = function() {
+    modalSumboro.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalSumboro) {
+        modalSumboro.style.display = "none";
+    }
+}
+
+// Куурума Лагман modalni ochish va yopish funksiyalari
+var modalKuurmaLagman = document.getElementById("myModalKuurmaLagman");
+var closeIconKuurmaLagman = document.getElementById("closeIconKuurmaLagman");
+var closeModalButtonKuurmaLagman = document.getElementsByClassName("closeKuurmaLagman")[0];
+
+// Куурума Лагман modalni ochish
+document.getElementById("openModalKuurmaLagman").onclick = function() {
+    modalKuurmaLagman.style.display = "flex";
+}
+
+// Куурума Лагман modalni yopish
+closeModalButtonKuurmaLagman.onclick = function() {
+    modalKuurmaLagman.style.display = "none";
+}
+closeIconKuurmaLagman.onclick = function() {
+    modalKuurmaLagman.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalKuurmaLagman) {
+        modalKuurmaLagman.style.display = "none";
+    }
+}
+
+// ТookSay modalni ochish va yopish funksiyalari
+var modalTookSay = document.getElementById("myModalTookSay");
+var closeIconTookSay = document.getElementById("closeIconTookSay");
+var closeModalButtonTookSay = document.getElementsByClassName("closeTookSay")[0];
+
+// ТookSay modalni ochish
+document.getElementById("openModalTookSay").onclick = function() {
+    modalTookSay.style.display = "flex";
+}
+
+// ТookSay modalni yopish
+closeModalButtonTookSay.onclick = function() {
+    modalTookSay.style.display = "none";
+}
+closeIconTookSay.onclick = function() {
+    modalTookSay.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalTookSay) {
+        modalTookSay.style.display = "none";
+    }
+}
+
+
+// Мампар modalni ochish va yopish funksiyalari
+var modalMampar = document.getElementById("myModalMampar");
+var closeIconMampar = document.getElementById("closeIconMampar");
+var closeModalButtonMampar = document.getElementsByClassName("closeMampar")[0];
+
+// Мампар modalni ochish
+document.getElementById("openModalMampar").onclick = function() {
+    modalMampar.style.display = "flex";
+}
+
+// Мампар modalni yopish
+closeModalButtonMampar.onclick = function() {
+    modalMampar.style.display = "none";
+}
+closeIconMampar.onclick = function() {
+    modalMampar.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalMampar) {
+        modalMampar.style.display = "none";
+    }
+}
+
+// Ганфан modalni ochish va yopish funksiyalari
+var modalGanfan = document.getElementById("myModalGanfan");
+var closeIconGanfan = document.getElementById("closeIconGanfan");
+var closeModalButtonGanfan = document.getElementsByClassName("closeGanfan")[0];
+
+// Ганфан modalni ochish
+document.getElementById("openModalGanfan").onclick = function() {
+    modalGanfan.style.display = "flex";
+}
+
+// Ганфан modalni yopish
+closeModalButtonGanfan.onclick = function() {
+    modalGanfan.style.display = "none";
+}
+closeIconGanfan.onclick = function() {
+    modalGanfan.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalGanfan) {
+        modalGanfan.style.display = "none";
+    }
+}
