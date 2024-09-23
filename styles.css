@@ -667,10 +667,10 @@ body {
 }
 
 .section1 {
-    background-color: #ffe4a9;
+    background-color: #a9d7ff;
     position:relative;
     margin-top: 260px;
-    padding: 5px;
+    padding: 20px;
     z-index: -1;
     
 }
