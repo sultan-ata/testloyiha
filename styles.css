@@ -664,8 +664,9 @@ body {
 .taomimg1 {
     width: 300px;
     height: 300px;
-    margin-top: -20px;
-    animation: rotate 80s linear infinite; /* Aylanish effekti */
+    animation: rotate 0s linear infinite;
+    transform-origin: center; /* Aylanish markazini o'rtaga o'rnatish */
+    display: block; /* Rasm elementini blok holatiga o'girib markazlashni osonlashtirish */
 }
 
 .taomimg2 {
@@ -843,7 +844,7 @@ body {
 
 .rasm2 {
 
-    width: 10%;
+    width: 110%;
     margin-left: -10px;
     margin-top: -70px;
     border-radius: 50%; /* Dumaloq shakl yaratish uchun */

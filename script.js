@@ -1659,3 +1659,54 @@ window.onclick = function(event) {
         modalShashlikKebab.style.display = "none";
     }
 }
+
+
+// Самса Кой Эти modalni ochish va yopish funksiyalari
+var modalSamsaKoyEti = document.getElementById("myModalSamsaKoyEti");
+var closeIconSamsaKoyEti = document.getElementById("closeIconSamsaKoyEti");
+var closeModalButtonSamsaKoyEti = document.getElementsByClassName("closeSamsaKoyEti")[0];
+
+// Самса Кой Эти modalni ochish
+document.getElementById("openModalSamsaKoyEti").onclick = function() {
+    modalSamsaKoyEti.style.display = "flex";
+}
+
+// Самса Кой Эти modalni yopish
+closeModalButtonSamsaKoyEti.onclick = function() {
+    modalSamsaKoyEti.style.display = "none";
+}
+closeIconSamsaKoyEti.onclick = function() {
+    modalSamsaKoyEti.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalSamsaKoyEti) {
+        modalSamsaKoyEti.style.display = "none";
+    }
+}
+
+// Самса Мал Эти modalni ochish va yopish funksiyalari
+var modalSamsaMalEti = document.getElementById("myModalSamsaMalEti");
+var closeIconSamsaMalEti = document.getElementById("closeIconSamsaMalEti");
+var closeModalButtonSamsaMalEti = document.getElementsByClassName("closeSamsaMalEti")[0];
+
+// Самса Мал Эти modalni ochish
+document.getElementById("openModalSamsaMalEti").onclick = function() {
+    modalSamsaMalEti.style.display = "flex";
+}
+
+// Самса Мал Эти modalni yopish
+closeModalButtonSamsaMalEti.onclick = function() {
+    modalSamsaMalEti.style.display = "none";
+}
+closeIconSamsaMalEti.onclick = function() {
+    modalSamsaMalEti.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda yopish
+window.onclick = function(event) {
+    if (event.target == modalSamsaMalEti) {
+        modalSamsaMalEti.style.display = "none";
+    }
+}
