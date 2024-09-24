@@ -1710,3 +1710,12 @@ window.onclick = function(event) {
         modalSamsaMalEti.style.display = "none";
     }
 }
+
+
+window.onload = function() {
+    const desserts = document.querySelectorAll('.dessert-item');
+    desserts.forEach((dessert, index) => {
+        dessert.style.animationDelay = `${index * 0.2}s`;
+        dessert.classList.add('fade-in');
+    });
+};

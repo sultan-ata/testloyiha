@@ -965,3 +965,49 @@ body {
         transform: translateY(0);
     }
 }
+
+
+
+
+.menu-container {
+    text-align: center;
+    background-image: url('./images//fon8.jpg'); /* replace with a suitable background */
+    background-size: cover;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.menu-title {
+   
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.dessert-list {
+    list-style:decimal;
+    padding: 0%;
+    text-align: left;
+}
+
+.dessert-item {
+    font-size: 15px;
+    padding: 23px;
+    color: #000000;
+    
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease-in-out;
+}
+
+.dessert-item .price {
+    float: right;
+    color: #070707;
+}
+
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
