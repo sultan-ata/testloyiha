@@ -417,7 +417,16 @@ header {
     .category:nth-child(5) {
         animation-delay: 1s;
     }
-    
+
+    /* Yangi qo'shilgan Сомса section */
+.category:nth-child(6) {
+    animation-delay: 1.2s; /* Navbat bilan animatsiya */
+}
+    .category:nth-child(7) {
+    animation-delay: 1.4s;
+}
+
+
     @keyframes fadeInEach {
         0% {
             opacity: 0;
