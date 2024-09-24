@@ -1407,3 +1407,255 @@ window.onclick = function(event) {
         modalPhiladelphia.style.display = "none";
     }
 }
+
+// Запкчённый с Угрём modalni ochish va yopish funksiyalari
+var modalZapchyonny = document.getElementById("myModalZapchyonny");
+var closeIconZapchyonny = document.getElementById("closeIconZapchyonny");
+var closeModalButtonZapchyonny = document.getElementsByClassName("closeZapchyonny")[0];
+
+// Запкчённый с Угрём modalni ochish
+document.getElementById("openModalZapchyonny").onclick = function() {
+    modalZapchyonny.style.display = "flex";
+}
+
+// Запкчённый с Угрём modalni yopish   
+closeModalButtonZapchyonny.onclick = function() {
+    modalZapchyonny.style.display = "none";
+}
+closeIconZapchyonny.onclick = function() {
+    modalZapchyonny.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalZapchyonny) {
+        modalZapchyonny.style.display = "none";
+    }
+}
+
+// Курочка Гриль modalni ochish va yopish funksiyalari
+var modalKurochkaGrill = document.getElementById("myModalKurochkaGrill");
+var closeIconKurochkaGrill = document.getElementById("closeIconKurochkaGrill");
+var closeModalButtonKurochkaGrill = document.getElementsByClassName("closeKurochkaGrill")[0];
+
+// Курочка Гриль modalni ochish
+document.getElementById("openModalKurochkaGrill").onclick = function() {
+    modalKurochkaGrill.style.display = "flex";
+}
+
+// Курочка Гриль modalni yopish
+closeModalButtonKurochkaGrill.onclick = function() {
+    modalKurochkaGrill.style.display = "none";
+}
+closeIconKurochkaGrill.onclick = function() {
+    modalKurochkaGrill.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalKurochkaGrill) {
+        modalKurochkaGrill.style.display = "none";
+    }
+}
+
+// Запечённый Ласось modalni ochish va yopish funksiyalari
+var modalZapchyonnyLasos = document.getElementById("myModalZapchyonnyLasos");
+var closeIconZapchyonnyLasos = document.getElementById("closeIconZapchyonnyLasos");
+var closeModalButtonZapchyonnyLasos = document.getElementsByClassName("closeZapchyonnyLasos")[0];
+
+// Запечённый Ласось modalni ochish
+document.getElementById("openModalZapchyonnyLasos").onclick = function() {
+    modalZapchyonnyLasos.style.display = "flex";
+}
+
+// Запечённый Ласось modalni yopish
+closeModalButtonZapchyonnyLasos.onclick = function() {
+    modalZapchyonnyLasos.style.display = "none";
+}
+closeIconZapchyonnyLasos.onclick = function() {
+    modalZapchyonnyLasos.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalZapchyonnyLasos) {
+        modalZapchyonnyLasos.style.display = "none";
+    }
+}
+
+
+// Темпура с Курицей modalni ochish va yopish funksiyalari
+var modalTempuraChicken = document.getElementById("myModalTempuraChicken");
+var closeIconTempuraChicken = document.getElementById("closeIconTempuraChicken");
+var closeModalButtonTempuraChicken = document.getElementsByClassName("closeTempuraChicken")[0];
+
+// Темпура с Курицей modalni ochish
+document.getElementById("openModalTempuraChicken").onclick = function() {
+    modalTempuraChicken.style.display = "flex";
+}
+
+// Темпура с Курицей modalni yopish
+closeModalButtonTempuraChicken.onclick = function() {
+    modalTempuraChicken.style.display = "none";
+}
+closeIconTempuraChicken.onclick = function() {
+    modalTempuraChicken.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalTempuraChicken) {
+        modalTempuraChicken.style.display = "none";
+    }
+}
+
+
+// Темпура с Лососем modalni ochish va yopish funksiyalari
+var modalTempuraSalmon = document.getElementById("myModalTempuraSalmon");
+var closeIconTempuraSalmon = document.getElementById("closeIconTempuraSalmon");
+var closeModalButtonTempuraSalmon = document.getElementsByClassName("closeTempuraSalmon")[0];
+
+// Темпура с Лососем modalni ochish
+document.getElementById("openModalTempuraSalmon").onclick = function() {
+    modalTempuraSalmon.style.display = "flex";
+}
+
+// Темпура с Лососем modalni yopish
+closeModalButtonTempuraSalmon.onclick = function() {
+    modalTempuraSalmon.style.display = "none";
+}
+closeIconTempuraSalmon.onclick = function() {
+    modalTempuraSalmon.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalTempuraSalmon) {
+        modalTempuraSalmon.style.display = "none";
+    }
+}
+
+// Темпура с Угрём modalni ochish va yopish funksiyalari
+var modalTempuraUgrom = document.getElementById("myModalTempuraUgrom");
+var closeIconTempuraUgrom = document.getElementById("closeIconTempuraUgrom");
+var closeModalButtonTempuraUgrom = document.getElementsByClassName("closeTempuraUgrom")[0];
+
+// Темпура с Угрём modalni ochish
+document.getElementById("openModalTempuraUgrom").onclick = function() {
+    modalTempuraUgrom.style.display = "flex";
+}
+
+// Темпура с Угрём modalni yopish
+closeModalButtonTempuraUgrom.onclick = function() {
+    modalTempuraUgrom.style.display = "none";
+}
+closeIconTempuraUgrom.onclick = function() {
+    modalTempuraUgrom.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalTempuraUgrom) {
+        modalTempuraUgrom.style.display = "none";
+    }
+}
+
+// Сет Микс modalni ochish va yopish funksiyalari
+var modalSetMix = document.getElementById("myModalSetMix");
+var closeIconSetMix = document.getElementById("closeIconSetMix");
+var closeModalButtonSetMix = document.getElementsByClassName("closeSetMix")[0];
+
+// Сет Микс modalni ochish
+document.getElementById("openModalSetMix").onclick = function() {
+    modalSetMix.style.display = "flex";
+}
+
+// Сет Микс modalni yopish
+closeModalButtonSetMix.onclick = function() {
+    modalSetMix.style.display = "none";
+}
+closeIconSetMix.onclick = function() {
+    modalSetMix.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalSetMix) {
+        modalSetMix.style.display = "none";
+    }
+}
+
+// Шашлык Кой Эти modalni ochish va yopish funksiyalari
+var modalShashlikKoyEti = document.getElementById("myModalShashlikKoyEti");
+var closeIconShashlikKoyEti = document.getElementById("closeIconShashlikKoyEti");
+var closeModalButtonShashlikKoyEti = document.getElementsByClassName("closeShashlikKoyEti")[0];
+
+// Шашлык Кой Эти modalni ochish
+document.getElementById("openModalShashlikKoyEti").onclick = function() {
+    modalShashlikKoyEti.style.display = "flex";
+}
+
+// Шашлык Кой Эти modalni yopish
+closeModalButtonShashlikKoyEti.onclick = function() {
+    modalShashlikKoyEti.style.display = "none";
+}
+closeIconShashlikKoyEti.onclick = function() {
+    modalShashlikKoyEti.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalShashlikKoyEti) {
+        modalShashlikKoyEti.style.display = "none";
+    }
+}
+
+// Шашлык Мал Эти modalni ochish va yopish funksiyalari
+var modalShashlikMalEti = document.getElementById("myModalShashlikMalEti");
+var closeIconShashlikMalEti = document.getElementById("closeIconShashlikMalEti");
+var closeModalButtonShashlikMalEti = document.getElementsByClassName("closeShashlikMalEti")[0];
+
+// Шашлык Мал Эти modalni ochish
+document.getElementById("openModalShashlikMalEti").onclick = function() {
+    modalShashlikMalEti.style.display = "flex";
+}
+
+// Шашлык Мал Эти modalni yopish
+closeModalButtonShashlikMalEti.onclick = function() {
+    modalShashlikMalEti.style.display = "none";
+}
+closeIconShashlikMalEti.onclick = function() {
+    modalShashlikMalEti.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalShashlikMalEti) {
+        modalShashlikMalEti.style.display = "none";
+    }
+}
+
+// Шашлык Кебаб modalni ochish va yopish funksiyalari
+var modalShashlikKebab = document.getElementById("myModalShashlikKebab");
+var closeIconShashlikKebab = document.getElementById("closeIconShashlikKebab");
+var closeModalButtonShashlikKebab = document.getElementsByClassName("closeShashlikKebab")[0];
+
+// Шашлык Кебаб modalni ochish
+document.getElementById("openModalShashlikKebab").onclick = function() {
+    modalShashlikKebab.style.display = "flex";
+}
+
+// Шашлык Кебаб modalni yopish
+closeModalButtonShashlikKebab.onclick = function() {
+    modalShashlikKebab.style.display = "none";
+}
+closeIconShashlikKebab.onclick = function() {
+    modalShashlikKebab.style.display = "none";
+}
+
+// Modal tashqarisiga bosilganda modalni yopish
+window.onclick = function(event) {
+    if (event.target == modalShashlikKebab) {
+        modalShashlikKebab.style.display = "none";
+    }
+}
