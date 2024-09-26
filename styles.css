@@ -633,8 +633,8 @@ h1,  h3, h4, h5, h6 {
  .narx {
    
     color: #ffbf00;
-    padding: 5px;
-    margin: 0;
+   
+    margin-bottom: 5px;
     font-family: 'Alumni Sans', sans-serif;
     font-size: 30px;
     font-weight: 200;
