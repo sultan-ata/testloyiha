@@ -31,7 +31,7 @@
 }
 
 html {
-    scroll-padding-top: 300x; /* class1 balandligi */
+    scroll-padding-top: 150x; /* class1 balandligi */
     scroll-padding-bottom:0; /* class1 balandligi */
 }
 
@@ -55,7 +55,11 @@ body {
     min-height: 100vh; /* Sahifaning balandligini to'liq qamrab oladi */
 }
 
-
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Gorizontal scrollni o'chiradi */
+}
 
 header {
   
@@ -354,7 +358,7 @@ header {
           
             background-color: #000000;
             width: 100%;
-            max-width: 600px;
+            max-width: 400px;
             text-align: center;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -386,11 +390,13 @@ header {
         width: 100%;
         max-width: 1000px;
         border-bottom: 10px solid #e5e5e5; /* Pastki chiziq */
-        overflow-x: scroll;
+        overflow: scroll;
         padding-top: 23px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         margin-top: 470px;
-        background-color: #fff;
+       background-color: #fff;
+        background-size: cover;
+       
         height: 100px; /* Balandlik qo‘shildi, elementlar shu balandlik bo‘yicha markazlanadi */
     }
     
@@ -482,6 +488,7 @@ header {
     display: flex;
     justify-content: center;
     padding: 5px;
+    border-radius: 30px;
    
 }
 .card {
@@ -583,7 +590,8 @@ h1,  h3, h4, h5, h6 {
     font-family: "Yanone Kaffeesatz", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-size: 30px;    
+    font-size: 30px;   
+    color: #00cfa1; 
   
   }
 
@@ -618,7 +626,7 @@ h1,  h3, h4, h5, h6 {
     padding: 5px;
     margin: 0;
     font-family: 'Alumni Sans', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 200;
     text-transform: uppercase;
    
@@ -681,9 +689,9 @@ body {
 }
 
 .section1 {
-    background-color: #ffffff;
+    background: url('./images/fon11.gif');
     position:relative;
-    margin-top: 320px;
+    margin-top: 280px;
     padding: 20px;
     z-index: -1;
     
@@ -700,9 +708,9 @@ body {
     margin-bottom: 30px;
     padding: 15px;
     padding-bottom: 5px;
-    background-color: hsl(0, 0%, 0%);
+    background-color: hsla(0, 0%, 5%, 0.3); /* Qizil rang 50% shaffoflik bilan */
     border: 1px solid #ffdd00;
-    border-radius: 12px;
+    border-radius: 10px 40px 10px 40px;
 }
 
 .product, .cart {
@@ -1072,11 +1080,22 @@ body {
     text-align: left;
 }
 
-.footer-content {
+footer {
 
+    padding: 60px;
+    margin-bottom: -100px;
+}
+.footer-content {
+    margin-top: 100px;
     color: #ffb700;
     text-align: center;
     align-items: center;
     padding: 30px;
    
+}
+
+.pfooter {
+
+    text-align:start;
+    text-transform: uppercase;
 }

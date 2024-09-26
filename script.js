@@ -1721,19 +1721,34 @@ window.onload = function() {
     });
 };
 
+function smoothScroll(target, duration, offset) {
+    var targetElement = document.querySelector(target);
+    var targetPosition = targetElement.getBoundingClientRect().top - offset;
+    var startPosition = window.pageYOffset;
+    var startTime = null;
+
+    function animation(currentTime) {
+        if (startTime === null) startTime = currentTime;
+        var timeElapsed = currentTime - startTime;
+        var run = ease(timeElapsed, startPosition, targetPosition, duration);
+        window.scrollTo(0, run);
+        if (timeElapsed < duration) requestAnimationFrame(animation);
+    }
+
+    function ease(t, b, c, d) {
+        t /= d / 2;
+        if (t < 1) return c / 2 * t * t + b;
+        t--;
+        return -c / 2 * (t * (t - 2) - 1) + b;
+    }
+
+    requestAnimationFrame(animation);
+}
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
-        const targetElement = document.querySelector(this.getAttribute('href'));
-        const offset = 280; // Necha px pastga ko'rinishini xohlasangiz, shu yerda sozlashingiz mumkin
-        const bodyRect = document.body.getBoundingClientRect().top;
-        const elementRect = targetElement.getBoundingClientRect().top;
-        const elementPosition = elementRect - bodyRect;
-        const offsetPosition = elementPosition - offset;
-
-        window.scrollTo({
-            top: offsetPosition,
-            behavior: "smooth"
-        });
+        const offset = 211; // Bu yerda rasmni qancha offset (masofa) bilan ko'rsatishni sozlaysiz
+        smoothScroll(this.getAttribute('href'), 3000, offset); // 2000 ms davomida silliq o'tish + offset bilan
     });
 });
