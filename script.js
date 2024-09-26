@@ -1748,7 +1748,7 @@ function smoothScroll(target, duration, offset) {
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
-        const offset = 211; // Bu yerda rasmni qancha offset (masofa) bilan ko'rsatishni sozlaysiz
+        const offset = 220; // Bu yerda rasmni qancha offset (masofa) bilan ko'rsatishni sozlaysiz
         smoothScroll(this.getAttribute('href'), 3000, offset); // 2000 ms davomida silliq o'tish + offset bilan
     });
 });
