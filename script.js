@@ -48,6 +48,7 @@ window.onclick = function(event) {
 }
 
 
+
 // Modalni ochish funksiyasi (Свежая Нарезка uchun)
 var modalNarezka = document.getElementById("myModalNarezka"); // Modalni topish
 var triggerImageNarezka = document.getElementById("openModalNarezka"); // Kartochkani topish
@@ -1719,3 +1720,20 @@ window.onload = function() {
         dessert.classList.add('fade-in');
     });
 };
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetElement = document.querySelector(this.getAttribute('href'));
+        const offset = 280; // Necha px pastga ko'rinishini xohlasangiz, shu yerda sozlashingiz mumkin
+        const bodyRect = document.body.getBoundingClientRect().top;
+        const elementRect = targetElement.getBoundingClientRect().top;
+        const elementPosition = elementRect - bodyRect;
+        const offsetPosition = elementPosition - offset;
+
+        window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth"
+        });
+    });
+});

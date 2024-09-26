@@ -31,7 +31,7 @@
 }
 
 html {
-    scroll-padding-top: 280px; /* class1 balandligi */
+    scroll-padding-top: 300x; /* class1 balandligi */
     scroll-padding-bottom:0; /* class1 balandligi */
 }
 
@@ -61,8 +61,8 @@ header {
   
    
     width: 100%;
-    padding-bottom: 45px;
-    background: url('./images/andalusia.png');
+    margin-top: -270px;
+  
     background-size:cover;
     text-align: center;
     background-repeat: no-repeat;
@@ -132,11 +132,14 @@ header {
 
     
     width: 180px;
-    padding: 40px;
+   
     border: none;
     text-align: center;
-    margin-bottom: 0px;
-    margin-top: 10px;
+    margin-top: 370px;
+
+   
+  
+    
     
 }
 
@@ -302,7 +305,7 @@ header {
         text-align: center;
         flex-direction: column;
         align-items: center;
-       
+        margin-top: -100px;
 
      }
       
@@ -680,7 +683,7 @@ body {
 .section1 {
     background-color: #ffffff;
     position:relative;
-    margin-top: 260px;
+    margin-top: 320px;
     padding: 20px;
     z-index: -1;
     
