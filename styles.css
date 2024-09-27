@@ -492,15 +492,17 @@ header {
    background: url('./images/fon4.png');
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0%;
+    margin-bottom: 15px;
     display: flex;
     justify-content: center;
     padding: 5px;
     border-radius: 30px;
+    width: 350px;
+    height: 320px;
    
 }
 .card {
-    background: url('./images/vilka.png') no-repeat center center; /* Rasm markazda joylashadi */
+
     background-size: contain; /* Rasm konteyner ichida mos keladi */
     width: 300px; /* Kartochka kengligi */
     max-width: 100%; /* Mobil moslik uchun */
@@ -633,12 +635,11 @@ h1,  h3, h4, h5, h6 {
  .narx {
    
     color: #ffbf00;
-   
-    margin-bottom: 5px;
     font-family: 'Alumni Sans', sans-serif;
     font-size: 30px;
     font-weight: 200;
     text-transform: uppercase;
+    margin: 0;
    
    
  }
@@ -679,7 +680,7 @@ body {
 .taomimg {
     width: 300px;
     height: 300px;
-    margin-top: -20px;
+    margin-top: -50px;
     animation: rotate 80s linear infinite; /* Aylanish effekti */
 }
 
@@ -709,17 +710,14 @@ body {
 
 .concard {
     display:block;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 150px;
-    margin-top: -30px;
-    margin-left: 55px;
+    width: 200px;
+    margin-top: -60px;
+    margin-left: 35px;
     margin-bottom: 30px;
     padding: 15px;
-    padding-bottom: 5px;
- background: url('./images/LOGOFON.gif');
-    border: 1px solid #ffdd00;
+    padding-bottom: 20px;
+  
+   margin-right: 80px;
     border-radius: 10px 40px 10px 40px;
 }
 
@@ -1108,4 +1106,26 @@ footer {
 
     text-align:center
     text-transform: uppercase;
+}
+
+/* Pastdan ko'tarilish animatsiyasi */
+@keyframes fadeInUp {
+    0% {
+        transform: translateY(20px); /* Pastdan ko'tariladi */
+        opacity: 0; /* Boshlanishda ko'rinmaydi */
+    }
+    100% {
+        transform: translateY(0); /* O'z joyiga keladi */
+        opacity: 1; /* To'liq ko'rinadi */
+    }
+}
+
+.card {
+    opacity: 0; /* Boshlanishda ko'rinmas */
+    transform: translateY(20px); /* Pastdan joylashadi */
+    transition: all 0.5s ease-in-out;
+}
+
+.card.show {
+    animation: fadeInUp 1s ease-out forwards; /* 1 soniya davomida silliq ko'tariladi */
 }

@@ -1752,3 +1752,20 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         smoothScroll(this.getAttribute('href'), 3000, offset); // 2000 ms davomida silliq o'tish + offset bilan
     });
 });
+
+// Kartalarni olish
+const cards = document.querySelectorAll('.card');
+
+// Intersection Observer API bilan kuzatish
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show'); // 'show' klassini qo'shish
+    }
+  });
+});
+
+// Har bir kartani kuzatish
+cards.forEach(card => {
+  observer.observe(card);
+});
